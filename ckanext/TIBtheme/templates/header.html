@@ -41,8 +41,8 @@
 {% block header_logo %}
 	{% set url = h.url_for('home') %}
 	<a href="{{ url }}" style="text-decoration: none;">
-    	{# <img class="site-logo" src="{{ url }}images/{{h.tibtheme_get_site_logo_filename()}}" style="" alt="TIB" title="TIB"> #}
-        <img class="site-logo" src="{{h.tibtheme_get_site_logo_filename()}}" style="" alt="TIB" title="TIB">
+    	{# <img class="site-logo" src="{{ url }}images/{{h.tibtheme_get_site_logo_filename()}}" style="" alt="Logo of NFDI4Energy" title="NFDI4Energy"> #}
+        <img class="site-logo" src="{{h.tibtheme_get_site_logo_filename()}}" style="" alt="NFDI4Energy" title="NFDI4Energy">
 
 	</a>
 {% endblock %}
@@ -81,8 +81,7 @@
 		{{ h.build_nav_main(
 		    ('organization.index', _('Organizations')),
 		    ('group.index', _('Groups')),
-		    ('home.about', _('About')),
-            ('TIBtheme.demo_page', _('Demo')) ) }}
+		    ('home.about', _('About')) ) }}
 	    {% endblock %}
         </ul>
       </nav>

@@ -8,7 +8,7 @@
 }
 
 .account-masthead {
-    background-color: #29AB87 !important;
+    background-color: #4BA0AF !important;
 }
 /* The "bubble" containing the number of new notifications. */
 .account-masthead .account .notifications a span {
@@ -99,11 +99,11 @@ border-radius:22px !important;
   .main {
     padding-top: 45px;
     /* background: #eee url("../../base/images/bg.png"); */
-    background-color: #29AB87 !important;
+    background-color: #4BA0AF !important;
   }
 }
 .masthead {
-  background-color: #40826D !important;
+  background-color: #055F82 !important;
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
@@ -174,7 +174,7 @@ border-radius:22px !important;
   border-top: 1px solid rgb(204, 204, 204) !important;
 } */
 .homepage{
-	background-color:#29AB87 !important;
+	background-color:#4BA0AF !important;
 }
 @media (min-width: 768px) {
   .hero {
@@ -191,12 +191,13 @@ border-radius:22px !important;
     height: 30px;
 }
 .img-responsive {
-  min-height: 88px !important;
-  }
+  height: 88px !important;
+  object-fit: contain;
+}
 
 .site-logo {
       margin-top:10px;
-      max-width: 80px !important;
+      max-width: 120px !important;
 }
 
 .header_ldm_logo_bar {
@@ -212,8 +213,8 @@ header div.container {
 
 .site-footer,
 body {
-    background: #b9afaf url("../../../base/images/bg.png");
-	background-color:#296f56;
+  background: #b9afaf url("../../base/images/bg.png");
+  background-color:#055F82;
 }
 /* The text in the footer. */
 .site-footer,
@@ -287,11 +288,20 @@ img.object-type {
     position: relative;
 }
 
-.dataset-item {
-    border-bottom: 1px dotted #444b42 !important;
-    border-radius:22px;
+.feature {
+  margin-bottom: 10px
 }
 
+.dataset-item {
+    border-bottom: 1px dotted #444b42 !important;
+    border-radius:10px;
+}
+
+.dataset-item:last-of-type {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
 
 .wrapper{
 	background-color:#ffffffab !important;
@@ -315,7 +325,7 @@ img.object-type {
 }
 
 .tag-list{
-	background-color:#40826D;
+	background-color:#055F82;
 	border-radius:22px;
 }
 .page-header{
@@ -604,3 +614,24 @@ a.btn_check_all {
 }
 
 /**************************************************/
+
+/* arrow glyph for showing collapsible panels */
+.panel-heading .accordion-arrow-toggle:before {
+   font-family: FontAwesome;
+   content: "\f078";
+   float: right;
+   color: silver;
+   padding-top: 15px;
+}
+
+.panel-heading .accordion-arrow-toggle.collapsed:before {
+   content: "\f054";
+   color: silver;
+   padding-top: 15px;
+}
+
+/* sets the link to the width of the entire panel title */
+.panel-title > a {
+   display: block;
+}
+

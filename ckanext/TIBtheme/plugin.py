@@ -31,7 +31,7 @@ def styled_footer_enabled():
     return toolkit.asbool(value)
 
 def get_site_logo_filename():
-    return config.get('ckan.site_logo', h.url_for('home')+'/images/TIB_logo.png')
+    return config.get('ckan.site_logo', h.url_for('home')+'/images/nfdi4energy_logo_cut.png')
 
 def legal_notices_enabled():
     value = config.get('tibtheme.legal_notices_enabled', False)
