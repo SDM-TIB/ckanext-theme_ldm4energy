@@ -289,7 +289,7 @@ img.object-type {
 }
 
 .feature {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .dataset-item {
@@ -395,7 +395,26 @@ background-color:transparent;
 
 .ribbon.png {
   background: #009c8f;
-  width: 55%;
+  width: 65%;
+}
+
+.ribbon.leo {
+  background: #003f57;
+  width: 65%;
+}
+
+.ribbon.osn {
+  background: #ac1035;
+  width: 65%;
+}
+
+.ribbon.goe {
+  background: #1a3771;
+  width: 65%;
+}
+.ribbon.leu {
+  background: #912631;
+  width: 65%;
 }
 /*
 
@@ -614,7 +633,6 @@ a.btn_check_all {
 }
 
 /**************************************************/
-
 /* arrow glyph for showing collapsible panels */
 .panel-heading .accordion-arrow-toggle:before {
    font-family: FontAwesome;
@@ -635,3 +653,13 @@ a.btn_check_all {
    display: block;
 }
 
+.notes.embedded-content img {
+  max-width: 100%;   
+  height: auto;          
+  margin: 0 auto;    
+}
+
+.notes.embedded-content img {
+  padding: 5px;     
+  box-sizing: border-box;
+}
