@@ -6,26 +6,26 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the relevant file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-TIBtheme''',
+    name='''ckanext-theme_ldm_tib''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.0.1',
+    version='1.0.0',
 
     description='''TIB theme extension for CKAN''',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/guillermobet/ckanext-TIBtheme',
+    url='https://github.com/SDM-TIB/ckanext-theme_ldm_tib',
 
     # Author details
-    author='''Guillermo Betancourt''',
-    author_email='''guillermojbetancourt@gmail.com''',
+    author='''Mauricio Brunet, Ahmad Sakor, Philipp D. Rohde''',
+    author_email='''Mauricio.Brunet@tib.eu''',
 
     # Choose your license
     license='AGPL',
@@ -36,14 +36,14 @@ setup(
         # 3 - Alpha
         # 4 - Beta
         # 5 - Production/Stable
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3 :: Only',
     ],
 
 
@@ -80,7 +80,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        TIBtheme=ckanext.TIBtheme.plugin:TibthemePlugin
+        TIBtheme=ckanext.theme_ldm_tib.plugin:TibThemePlugin
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
