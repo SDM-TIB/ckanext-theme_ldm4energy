@@ -1,15 +1,60 @@
+import logging
+
+import ckan.lib.helpers as h
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from ckan.common import config
-import ckan.lib.helpers as h
+from ckan.common import config, request
+from ckan.lib.plugins import DefaultTranslation
+from ckanext.theme_ldm_tib import actions
 from flask import Blueprint
-from six import text_type
+
+log = logging.getLogger(__name__)
+
+_warned = set()
 
 # HELPERS
 legal_config = {
     'en': {'terms_of_use_link': 'https://www.tib.eu/en/service/terms-of-use/'},
     'de': {'terms_of_use_link': 'https://www.tib.eu/de/service/benutzungsordnung'}
 }
+
+
+def N_(message):
+    """Mark a string for extraction without translating it (translated at call time)."""
+    return message
+
+
+DATASET_TYPE_TITLES = {
+    'dataset': N_('Dataset'),
+    'vdataset': N_('Imported Dataset'),
+    'github': N_('GitHub'),
+    'service': N_('Service'),
+}
+
+
+CKAN_DEFAULT_LOGOS = ('', '/base/images/ckan-logo.png')
+TIB_DEFAULT_LOGO = '/images/nfdi4energy_logo_cut.png'
+
+
+def tibimport_available():
+    """True if the tibimport plugin is loaded; logs a single warning otherwise."""
+    if plugins.plugin_loaded('tibimport'):
+        return True
+    if 'tibimport' not in _warned:
+        _warned.add('tibimport')
+        log.warning('tibimport plugin is not loaded: imported-dataset ribbons '
+                    'and the auto-update admin option are disabled.')
+    return False
+
+
+def show_vdatasets_virtual_ribbon():
+    return tibimport_available() and toolkit.asbool(
+        config.get('tibimport.show_vdatasets_virtual_ribbon', False))
+
+
+def show_vdatasets_virtual_source_ribbon():
+    return tibimport_available() and toolkit.asbool(
+        config.get('tibimport.show_vdatasets_virtual_source_ribbon', False))
 
 
 def get_legal_notice_link(lang='en', term=''):
@@ -34,7 +79,12 @@ def styled_footer_enabled():
 
 
 def get_site_logo_filename():
-    return config.get('ckan.site_logo', h.url_for('home')+'/images/nfdi4energy_logo_cut.png')
+    logo = (config.get('ckan.site_logo') or '').strip()
+    if logo in CKAN_DEFAULT_LOGOS:
+        return h.url_for_static_or_external(TIB_DEFAULT_LOGO)
+    if logo.startswith('http'):
+        return logo
+    return h.url_for_static_or_external(logo)
 
 
 def legal_notices_enabled():
@@ -50,10 +100,6 @@ def legal_notices_TIB_terms_use_enabled():
 def special_conditions_LDM_enabled():
     value = config.get('tibtheme.special_conditions_LDM_enabled', False)
     return toolkit.asbool(value)
-
-
-def special_conditions_label():
-    return config.get('tibtheme.special_conditions_label', 'Special Conditions TIB LDM')
 
 
 def data_privacy_enabled():
@@ -72,7 +118,7 @@ def accessibility_statement_enabled():
 
 
 def is_matomo_plugin_enabled():
-    return 'matomo' in config.get('ckan.plugins', '')
+    return 'matomo' in toolkit.aslist(config.get('ckan.plugins', ''))
 
 
 def is_TIBservice_instance():
@@ -84,12 +130,14 @@ def default_instance_name():
 
 
 def get_dataset_authors_string(dataset_dict):
-    author_str = ""
-    if 'author' in dataset_dict:
-        author_str = dataset_dict['author']
-    for author in dataset_dict.get('extra_authors', []):
-        author_str += ", " + author['extra_author']
-    return author_str
+    authors = []
+    if dataset_dict.get('author'):
+        authors.append(dataset_dict['author'])
+    for extra in dataset_dict.get('extra_authors') or []:
+        name = extra.get('extra_author') if isinstance(extra, dict) else None
+        if name:
+            authors.append(name)
+    return ', '.join(authors)
 # *********************
 
 # DEMO PAGE
@@ -143,10 +191,20 @@ def data_privacy():
 # **********************************
 
 
-class TibThemePlugin(plugins.SingletonPlugin):
+class TibThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IBlueprint)
+    plugins.implements(plugins.ITranslation)
+    plugins.implements(plugins.IActions)
+
+    # IActions
+    def get_actions(self):
+        return {'user_create': actions.user_create}
+
+    # ITranslation
+    def i18n_domain(self):
+        return 'ckanext-theme_ldm_tib'
 
     # IConfigurer
     def update_config(self, config_):
@@ -164,7 +222,6 @@ class TibThemePlugin(plugins.SingletonPlugin):
             'tibtheme.show_cookies_alert':  [ignore_missing, boolean_validator],
             'tibtheme.legal_notices_TIB_terms_use_enabled': [ignore_missing, boolean_validator],
             'tibtheme.special_conditions_LDM_enabled': [ignore_missing, boolean_validator],
-            'tibtheme.special_conditions_label': [ignore_missing, text_type],
             'tibtheme.data_privacy_enabled': [ignore_missing, boolean_validator],
             'tibtheme.imprint_enabled': [ignore_missing, boolean_validator],
             'tibtheme.accessibility_statement_enabled':[ignore_missing, boolean_validator],
@@ -194,13 +251,15 @@ class TibThemePlugin(plugins.SingletonPlugin):
             'tibtheme_legal_notices_enabled': legal_notices_enabled,
             'tibtheme_legal_notices_TIB_terms_use_enabled': legal_notices_TIB_terms_use_enabled,
             'tibtheme_special_conditions_LDM_enabled': special_conditions_LDM_enabled,
-            'tibtheme_special_conditions_label': special_conditions_label,
             'tibtheme_data_privacy_enabled': data_privacy_enabled,
             'tibtheme_imprint_enabled': imprint_enabled,
             'tibtheme_accessibility_statement_enabled': accessibility_statement_enabled,
             'tibtheme_is_TIBservice_instance': is_TIBservice_instance,
             'tibtheme_default_instance_name': default_instance_name,
             'tibtheme_get_dataset_authors_string': get_dataset_authors_string,
+            'tibtheme_tibimport_available': tibimport_available,
+            'tibtheme_show_vdatasets_virtual_ribbon': show_vdatasets_virtual_ribbon,
+            'tibtheme_show_vdatasets_virtual_source_ribbon': show_vdatasets_virtual_source_ribbon,
         }
 
      # IBlueprint
@@ -241,22 +300,17 @@ def show_object_icon_in_package_item():
 
 
 def is_dataset_menu_item_selected():
-    current_url = h.current_url()
-    return '/dataset/' in current_url or '/vdataset/' in current_url or '/service/' in current_url
+    """True if the current request is under a dataset-type URL space."""
+    segments = [s for s in request.path.split('/') if s]
+    # Defensive: drop a leading locale segment (e.g. /de/dataset/...) in
+    # case the i18n middleware hasn't already stripped it.
+    if segments and segments[0] == h.lang():
+        segments = segments[1:]
+    return bool(segments) and segments[0] in DATASET_TYPE_TITLES
 
 
 def get_dataset_type_title(dataset_type):
-<<<<<<< HEAD:ckanext/TIBtheme/plugin.py
-    aux_list = {'dataset': 'Dataset',
-                'vdataset': 'Imported Dataset',
-                'github': 'GitHub',
-                'service': 'Service'}
-=======
-    aux_list = {
-        'dataset': 'Dataset',
-        'vdataset': 'Imported Dataset',
-        'github': 'GitHub',
-        'service': 'Service'
-    }
->>>>>>> 3b5965453667985e6fecbed058a959d9422ef57a:ckanext/theme_ldm_tib/plugin.py
-    return aux_list[dataset_type]
+    title = DATASET_TYPE_TITLES.get(dataset_type)
+    if title is None:
+        return dataset_type
+    return toolkit._(title)

@@ -1,18 +1,44 @@
 {% extends "page.html" %}
 {% import 'macros/form.html' as form %}
-{% set current_lang = request.environ.CKAN_LANG %}
 
 {% block subtitle %}{{ _('Imprint') }}{% endblock %}
 
 {% block breadcrumb_content %}
-    <li class="active">{% link_for _('Imprint'), 'imprint' %}</li>
+    <li class="active">{% link_for _('Imprint'), named_route='TIBtheme.imprint' %}</li>
 {% endblock %}
 
 {% block primary %}
     <article class="module" role="main">
         <div class="module-content">
             <h1 class="">{{_('Imprint')}}</h1>
-            {% snippet "home/snippets/imprint.html", current_lang=current_lang %}
+            <p>{{ _("Imprint for this website – also serves as provider identification according to § 5 Digitale Dienste Gesetz (DDG)") }}</p>
+            <p><b>{{ _("Provider:") }}</b></p>
+            <p>
+                Technische Informationsbibliothek (TIB)<br>
+                Welfengarten 1 B, 30167 Hannover<br>
+                Postfach 6080, 30060 Hannover<br>
+                {{ _("Germany") }}
+            </p>
+            <p><b>{{ _("Authorised Representative:") }}</b></p>
+            <p>Prof. Dr. Sören Auer ({{ _("Director of TIB") }})<br><br>{{ _("Technische Informationsbibliothek (TIB) is a foundation of public law of the state of Lower Saxony.") }}</p>
+            <p><b>{{ _("Responsible Supervisory Authority:") }}</b></p>
+            <p>{{ _("Ministry for Science and Culture of Lower Saxony") }}</p>
+            <p><b>{{ _("Contact") }}:</b></p>
+            <p>
+                {{ _("Phone") }}: +49 511 762-2268<br>
+                {{ _("Email") }}: <a href="mailto:information@tib.eu">information@tib.eu</a>
+            </p>
+            <p><b>{{ _("VAT (sales tax) registration number") }}:</b></p>
+            <p>DE 214931803</p>
+            <p><b>{{ _("Editorial Office") }}:</b></p>
+            <p>
+                {{ _("Responsible for the content according to § 18 Abs. 2 MStV") }}:<br>
+                Dr. Sandra Niemeyer; {{ _("Email") }}: <a href="mailto:sandra.niemeyer@tib.eu">sandra.niemeyer@tib.eu</a><br>
+                Michael Hohlfeld; {{ _("Email") }}: <a href="mailto:michael.hohlfeld@tib.eu">michael.hohlfeld@tib.eu</a><br>
+            </p>
+            <p><b>{{ _("Copyright") }}:</b></p>
+            <p>{{ _("The layout of this website is protected under copyright, as are the graphics and all other contents contained in the website.") }}</p>
+
         </div>
     </article>
 

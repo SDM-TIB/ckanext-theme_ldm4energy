@@ -19,8 +19,8 @@ Example:
 {% set title = package.title or package.name %}
 {% set notes = h.markdown_extract(package.notes, extract_length=truncate) %}
 
-{% set show_virtual_ribbon = h.tibimport_show_vdatasets_virtual_ribbon() %}
-{% set show_source_ribbon = h.tibimport_show_vdatasets_virtual_source_ribbon() %}
+{% set show_virtual_ribbon = h.tibtheme_show_vdatasets_virtual_ribbon() %}
+{% set show_source_ribbon = h.tibtheme_show_vdatasets_virtual_source_ribbon() %}
 
 {% block package_item %}
     <li class="{{ item_class or "dataset-item" }} {{ package.type }}">
@@ -29,10 +29,10 @@ Example:
 
                 {% if package.type=="vdataset" %}
                     {% if show_source_ribbon %}
-                        <h1 class="ribbon {{ package.name[0:3]}}">{{ package.repository_name }}</h1>
+                        <div class="ribbon {{ package.name[0:3]}}">{{ package.repository_name }}</div>
                     {% endif %}
                     {% if show_virtual_ribbon %}
-                        <h4 class="ribbon99">&nbsp;&nbsp;&nbsp;&nbsp;{{_('Imported')}}&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        <div class="ribbon99">&nbsp;&nbsp;&nbsp;&nbsp;{{_('Imported')}}&nbsp;&nbsp;&nbsp;&nbsp;</div>
                     {% endif %}
                 {% endif %}
 
@@ -82,7 +82,7 @@ Example:
                         {% block resources_outer %}
                             <ul class="dataset-resources list-unstyled">
                                 <li>
-                                    <a href="{{ h.url_for(package.type ~ '.read', id=package.name) }}" class="label label-default label-{{ package.type }}-box">{{ _(h.tibtheme_get_dataset_type_title(package.type)) }}</a>
+                                    <a href="{{ h.url_for(package.type ~ '.read', id=package.name) }}" class="label label-default label-{{ package.type }}-box">{{ h.tibtheme_get_dataset_type_title(package.type) }}</a>
                                 </li>
                                 {% if package.resources and not hide_resources %}
                                     {% block resources_inner %}
@@ -95,7 +95,7 @@ Example:
                                 {% endif %}
 
                                 {% if h.tibtheme_show_object_icon_in_package_item() %}
-                                    <img src="{{h.url_for('home')}}images/{{ package.type }}_object.png" class="object-type" title="{{ h.tibtheme_get_dataset_type_title(package.type) }}"/>
+                                    <img src="{{h.url_for('home')}}images/{{ package.type }}_object.png" class="object-type" alt="" title="{{ h.tibtheme_get_dataset_type_title(package.type) }}"/>
                                 {% endif %}
                             </ul>
                         {% endblock %}
@@ -105,8 +105,3 @@ Example:
         </div>
     </li>
 {% endblock %}
-
-<ul class="dataset-resources list-unstyled">
-    <li><a href="/vdataset/luh-wavelength-specific-behavior-of-the-western-flower-thrips" class="label label-default" data-format="zip">ZIP</a></li>
-    <li><a href="/vdataset/luh-wavelength-specific-behavior-of-the-western-flower-thrips" class="label label-default" data-format="csv">CSV</a></li>
-</ul>

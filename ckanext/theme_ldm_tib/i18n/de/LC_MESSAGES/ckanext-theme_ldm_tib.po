@@ -1,0 +1,2793 @@
+# German translations for ckanext-theme_ldm_tib.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-theme_ldm_tib project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-10 15:01+0100\n"
+"PO-Revision-Date: 2026-09-05 12:37+0200\n"
+"Last-Translator: Philipp D. Rohde\n"
+"Language: de\n"
+"Language-Team: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ckanext/theme_ldm_tib/actions.py:25
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:8
+msgid "The Special Conditions have to be accepted."
+msgstr "Die Sonderbedingungen müssen akzeptiert werden."
+
+#: ckanext/theme_ldm_tib/actions.py:26
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+msgid "Data processing by TIB must be approved."
+msgstr "Die Datenverarbeitung durch die TIB muss genehmigt werden."
+
+#: ckanext/theme_ldm_tib/actions.py:29
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:8
+msgid "Special Conditions"
+msgstr "Sonderbedingungen"
+
+#: ckanext/theme_ldm_tib/actions.py:30
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+msgid "Data Protection"
+msgstr "Datenschutz"
+
+#: ckanext/theme_ldm_tib/plugin.py:28
+msgid "Dataset"
+msgstr "Datensatz"
+
+#: ckanext/theme_ldm_tib/plugin.py:29
+msgid "Imported Dataset"
+msgstr "Importierter Datensatz"
+
+#: ckanext/theme_ldm_tib/plugin.py:30
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ckanext/theme_ldm_tib/plugin.py:31
+msgid "Service"
+msgstr "Service"
+
+#: ckanext/theme_ldm_tib/templates/footer.html:24
+#: ckanext/theme_ldm_tib/templates/footer.html:50
+msgid "About {0}"
+msgstr "Über {0}"
+
+#: ckanext/theme_ldm_tib/templates/footer.html:28
+#: ckanext/theme_ldm_tib/templates/footer.html:56
+msgid "CKAN API"
+msgstr "CKAN API"
+
+#: ckanext/theme_ldm_tib/templates/footer.html:29
+#: ckanext/theme_ldm_tib/templates/footer.html:57
+msgid "CKAN Association"
+msgstr "CKAN Association"
+
+#: ckanext/theme_ldm_tib/templates/footer.html:38
+#: ckanext/theme_ldm_tib/templates/footer.html:74
+#, python-format
+msgid "Powered by %(ckan_link)s"
+msgstr "Eingesetzte Software ist %(ckan_link)s"
+
+#: ckanext/theme_ldm_tib/templates/header.html:4
+msgid "Log in"
+msgstr "Einloggen"
+
+#: ckanext/theme_ldm_tib/templates/header.html:6
+#: ckanext/theme_ldm_tib/templates/header.html:9
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:4
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:7
+msgid "Register"
+msgstr "Registrieren"
+
+#: ckanext/theme_ldm_tib/templates/header.html:42
+msgid "Search Datasets"
+msgstr "Datensatz-Suche"
+
+#: ckanext/theme_ldm_tib/templates/header.html:43
+#: ckanext/theme_ldm_tib/templates/header.html:44
+#: ckanext/theme_ldm_tib/templates/home/snippets/search.html:9
+msgid "Search"
+msgstr "Suche"
+
+#: ckanext/theme_ldm_tib/templates/header.html:58
+#: ckanext/theme_ldm_tib/templates/user/read_base.html:4
+msgid "Datasets"
+msgstr "Datensätze"
+
+#: ckanext/theme_ldm_tib/templates/header.html:61
+msgid "All"
+msgstr "Alle"
+
+#: ckanext/theme_ldm_tib/templates/header.html:62
+msgid "Local"
+msgstr "Lokal"
+
+#: ckanext/theme_ldm_tib/templates/header.html:63
+#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:35
+msgid "Imported"
+msgstr "Importiert"
+
+#: ckanext/theme_ldm_tib/templates/header.html:64
+msgid "Services"
+msgstr "Services"
+
+#: ckanext/theme_ldm_tib/templates/header.html:71
+msgid "Organizations"
+msgstr "Organisationen"
+
+#: ckanext/theme_ldm_tib/templates/header.html:72
+msgid "Groups"
+msgstr "Gruppen"
+
+#: ckanext/theme_ldm_tib/templates/header.html:73
+#: ckanext/theme_ldm_tib/templates/home/about.html:3
+#: ckanext/theme_ldm_tib/templates/home/about.html:6
+msgid "About"
+msgstr "Über"
+
+#: ckanext/theme_ldm_tib/templates/header.html:74
+#: ckanext/theme_ldm_tib/templates/home/demo.html:4
+#: ckanext/theme_ldm_tib/templates/home/demo.html:7
+msgid "Demo"
+msgstr "Demo"
+
+#: ckanext/theme_ldm_tib/templates/header.html:75
+#: ckanext/theme_ldm_tib/templates/home/api.html:4
+#: ckanext/theme_ldm_tib/templates/home/api.html:7
+msgid "API"
+msgstr "API"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:4
+msgid "Site Title"
+msgstr "Seitentitel"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:13
+msgid "Site Logo"
+msgstr "Webseiten-Logo"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:16
+msgid "Legal Notices Panel"
+msgstr "Rechtliche Hinweise"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:19
+msgid "Legal Notices Enabled"
+msgstr "Rechtliche Hinweise aktiviert"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:20
+msgid "Show cookies alert"
+msgstr "Cookie-Hinweis anzeigen"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:21
+msgid "Show TIB Terms of Use Link"
+msgstr "Link zu den Nutzungsbedingungen der TIB anzeigen"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:22
+msgid "Show Special Conditions Link"
+msgstr "Link zu den besonderen Bedingungen anzeigen"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:23
+msgid "Show Data Privacy Link"
+msgstr "Link zum Datenschutz anzeigen"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:24
+msgid "Show Imprint Link"
+msgstr "Link zum Impressum anzeigen"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:25
+msgid "Show Accessibility Link"
+msgstr "Link zur Barrierefreiheit anzeigen"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:30
+msgid "Automatic update of imported Datasets"
+msgstr "Automatische Aktualisierung importierter Datensätze"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:31
+msgid "Update imported Datasets"
+msgstr "Importierte Datensätze aktualisieren"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:40
+msgid "CKAN config options"
+msgstr "Optionen der CKAN-Konfiguration"
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:46
+#, python-format
+msgid ""
+"%(ss)sSite Title:%(se)s This is the title of this CKAN instance. It "
+"appears in various places throughout CKAN."
+msgstr ""
+"%(ss)sSeitenüberschrift:%(se)s Dieses ist der Seitentitel dieser CKAN "
+"Installation. Er erscheint an verschiedenen Stellen in CKAN."
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:47
+#, python-format
+msgid ""
+"%(ss)sSite Logo:%(se)s This is the logo that appears in the header of all"
+" the CKAN instance templates."
+msgstr ""
+"%(ss)sSeiten-Logo:%(se)s Dieses Logo erscheint im Kopf aller CKAN "
+"Instance Templates."
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:48
+#, python-format
+msgid ""
+"%(ss)sLegal Notices Panel:%(se)s This is the list of links placed in the "
+"footer of the page."
+msgstr ""
+"%(ss)sRechtliche Hinweise:%(se)s Dies ist die Liste der Links, die in der"
+" Fußzeile der Seite platziert sind."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:4
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:7
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:13
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:35
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:36
+msgid "Accessibility Statement"
+msgstr "Erklärung zur Barrierefreiheit"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:14
+msgid "Date of this declaration: 21.03.2022"
+msgstr "Stand der Erklärung: 21.03.2022"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:15
+msgid ""
+"Information on the accessibility of these web pages and its contact "
+"details in accordance with § 9b NBGG."
+msgstr ""
+"Informationen über die Zugänglichkeit dieser Webseiten gemäß § 9b NBGG "
+"sowie über diesbezügliche Kontaktmöglichkeiten."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:23
+#, python-format
+msgid ""
+"This accessibility statement applies to %(ldmservice_link)s, "
+"%(ldmjupyter_link)s and their sub-pages."
+msgstr ""
+"Diese Erklärung zur Barrierefreiheit gilt für %(ldmservice_link)s, "
+"%(ldmjupyter_link)s und deren Unterseiten."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:28
+msgid ""
+"These websites are mostly compatible with the requirements of the "
+"harmonized European standard EN 301 549 V2.1.2 (08-2018) and WCAG 2.1 "
+"(Web Content Accessibility Guidelines)."
+msgstr ""
+"Diese Webseiten sind mit den Vorgaben der harmonisierten europäischen "
+"Norm EN 301 549 V2.1.2 (08-2018) und des WCAG 2.1 (Web Content "
+"Accessibility Guidelines) größtenteils vereinbar."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:29
+msgid "Non-accessible content:"
+msgstr "Nicht barrierefreie Inhalte:"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:31
+msgid ""
+"Contents that the TIB, in its function as a cultural heritage collection,"
+" is unable to convert into barrier-free content or can only do so at "
+"disproportionate expense."
+msgstr ""
+"Inhalte, die von der TIB in ihrer Funktion als Kulturerbesammlung, nicht "
+"oder nur durch unverhältnismäßigem Aufwand barrierefrei umgewandelt "
+"werden können."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:32
+msgid ""
+"Contents that are considered as archives of the TIB, i.e. contents that "
+"are neither required for active administrative procedures nor updated or "
+"revised after 23 September 2019."
+msgstr ""
+"Inhalte der TIB, die als Archive gelten, d.h., Inhalte, die weder für "
+"aktive Verwaltungsverfahren benötigt werden noch nach dem 23. September "
+"2019 aktualisiert oder überarbeitet wurden."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:34
+msgid "Information integrated into the website, in particular:"
+msgstr "In den Webauftritt eingebundene Informationen, insbesondere:"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:36
+msgid "PDF documents"
+msgstr "PDF-Dokumente"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
+msgid "Videos"
+msgstr "Videos"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
+msgid "Texts"
+msgstr "Texte"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
+msgid "Graphics"
+msgstr "Grafiken"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:40
+msgid "Photos"
+msgstr "Fotos"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
+msgid "The listed contents are not barrier-free for the following reasons:"
+msgstr "Die aufgeführten Inhalte sind aus folgenden Gründen nicht barrierefrei:"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
+msgid "To 1 & 2:"
+msgstr "Zu 1. & 2.:"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
+msgid ""
+"These contents are excluded from the application of accessibility "
+"according to § 9 section 2 NBGG."
+msgstr ""
+"Diese Inhalte sind von der Anwendung der Barrierefreiheit ausgenommen "
+"gemäß § 9 Absatz 2 NBGG."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:47
+msgid "To 3:"
+msgstr "Zu 3.:"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:48
+msgid ""
+"The website is being adapted and optimized to comply with the EU "
+"Directive 2016/2102 on the implementation of a barrier-free Internet for "
+"public sector bodies. The identified deficits and deficiencies are "
+"currently undergoing a continuous improvement process that will be "
+"successively processed."
+msgstr ""
+"Der Webauftritt wird an die EU-Richtlinie 2016/2102 zur Umsetzung des "
+"barrierefreien Internets öffentlicher Stellen angepasst und optimiert. "
+"Die identifizierten Defizite und Mängel befinden sich aktuell in einem "
+"kontinuierlichen Verbesserungsprozess, der sukzessive abgearbeitet wird."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:50
+msgid "Establishment of this Accessibility Statement"
+msgstr "Erstellung dieser Erklärung zur Barrierefreiheit"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:51
+msgid ""
+"This statement was established on 18 August 2020. The assessment is based"
+" on self-assessment."
+msgstr ""
+"Diese Erklärung wurde am 21.03.22 erstellt. Die Einschätzung basiert auf "
+"Selbstbewertung."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:53
+msgid "Feedback and contact details"
+msgstr "Feedback und Kontaktangaben"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:54
+msgid ""
+"You can report cases of non-compliance with accessibility requirements to"
+" us:"
+msgstr ""
+"Über folgenden Kontakt können Sie Mängel in Bezug auf die Einhaltung der "
+"Barrierefreiheitsanforderungen mitteilen:"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:60
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:70
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:31
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:40
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:28
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:32
+msgid "Phone"
+msgstr "Telefon"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:61
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:71
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:29
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:36
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:37
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:24
+msgid "Email"
+msgstr "E-Mail"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
+msgid "Arbitration procedure"
+msgstr "Schlichtungsverfahren"
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
+msgid ""
+"If you are not satisfied with the answers of our above-mentioned contact "
+"point, you can contact the arbitration office, which is located at the "
+"State Representative for People with Disabilities in Lower Saxony, for "
+"the initiation of an arbitration procedure in accordance with the "
+"Niedersächsisches Behindertengleichstellungsgesetz (Disability Equality "
+"Act of Lower Saxony) (NBGG)."
+msgstr ""
+"Bei nicht zufriedenstellenden Antworten aus oben genannter "
+"Kontaktmöglichkeit können Sie bei der Schlichtungsstelle, eingerichtet "
+"bei der Landesbeauftragten für Menschen mit Behinderungen in "
+"Niedersachsen, einen Antrag auf Einleitung eines Schlichtungsverfahrens "
+"nach dem Niedersächsischen Behindertengleichstellungsgesetz (NBGG) "
+"stellen."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
+msgid ""
+"The arbitration office has the task according to § 9 d NBGG of settling "
+"disputes between people with disabilities and public institutions of the "
+"state of Lower Saxony on the topic of accessibility in IT."
+msgstr ""
+"Die Schlichtungsstelle nach § 9 d NBGG hat die Aufgabe, Streitigkeiten "
+"zwischen Menschen mit Behinderungen und öffentlichen Stellen des Landes "
+"Niedersachsen, zum Thema Barrierefreiheit in der IT, beizulegen. Das "
+"Schlichtungsverfahren ist kostenlos. Es muss kein Rechtsbeistand "
+"eingeschaltet werden."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:67
+msgid ""
+"The arbitration procedure is free of charge. No legal counsels are "
+"required."
+msgstr ""
+"Das Schlichtungsverfahren ist kostenlos. Es ist kein Rechtsbeistand "
+"erforderlich."
+
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:68
+msgid "You can contact the arbitration office directly at:"
+msgstr "Direkt kontaktieren können Sie die Schlichtungsstelle unter:"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:13
+#, python-format
+msgid "This API is available on %(gh)s."
+msgstr "Diese API ist verfügbar auf %(gh)s."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:22
+msgid "APIs offered by the Leibniz Data Manager"
+msgstr "APIs angeboten vom Leibniz Data Manager"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:25
+#, python-format
+msgid ""
+"The %(ss)sLeibniz Data Manager (LDM)%(se)s is an open-source and free "
+"web-based application for Research Data Management (RDM). To facilitate "
+"integration with external tools and workflows, the LDM offers a series of"
+" APIs that fulfil various data management purposes."
+msgstr ""
+"Der %(ss)sLeibniz Data Manager (LDM)%(se)s ist eine Open-Source- und frei"
+" verfügbare webbasierte Anwendung für Forschungsdatenmanagement (FDM). Um"
+" die Integration mit externen Werkzeugen und Arbeitsabläufen zu "
+"erleichtern, bietet der LDM eine Reihe von APIs an, die verschiedene "
+"Zwecke im Bereich des Datenmanagements erfüllen."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:26
+msgid "The APIs offered can be applied in the following areas:"
+msgstr "Die angebotenen APIs können in den folgenden Bereichen eingesetzt werden:"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:29
+msgid "Service for Data Comparison"
+msgstr "Service für Datenvergleich"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:29
+msgid ""
+"This API enables direct side-by-side comparison of CSV datasets. Upload "
+"two or more CSV files, join them on a shared key column, and explore the "
+"result in a filterable table. Visualisations can be rendered as line, "
+"scatter, or bar charts with an optional logarithmic scale."
+msgstr ""
+"Diese API ermöglicht den direkten Vergleich von CSV-Datensätzen "
+"nebeneinander. Laden Sie zwei oder mehr CSV-Dateien hoch, verbinden Sie "
+"diese über eine gemeinsame Schlüsselspalte und erkunden Sie das Ergebnis "
+"in einer filterbaren Tabelle. Visualisierungen können als Linien-, Streu-"
+" oder Balkendiagramm mit optionaler logarithmischer Skala erstellt "
+"werden."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:31
+msgid ""
+"Incremental resource loading — start with a single CSV and join "
+"additional files one at a time"
+msgstr ""
+"Schrittweises Laden von Ressourcen – beginnen Sie mit einer einzelnen "
+"CSV-Datei und ergänzen Sie weitere"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:32
+msgid "Automatic left-join on the first shared column across datasets"
+msgstr "Automatischer Left-Join über die erste gemeinsame Spalte"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:33
+msgid "Filterable table with column-level search and pagination (DataTables)"
+msgstr ""
+"Filterbare Tabelle mit spaltenbasierter Suche und Seitennavigation "
+"(DataTables)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:34
+msgid ""
+"Interactive charts with selectable series and filtering to currently "
+"visible rows (Plotly)"
+msgstr ""
+"Interaktive Diagramme mit wählbaren Serien und Filterung auf sichtbare "
+"Zeilen (Plotly)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:35
+msgid "Available as a Docker container or a local Python application"
+msgstr "Verfügbar als Docker-Container oder lokale Python-Anwendung"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:40
+msgid "Service for Jupyter Notebook Execution"
+msgstr "Service für die Ausführung von Jupyter Notebooks"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:40
+msgid ""
+"A containerised, multi-user JupyterHub instance with a unified REST API "
+"for notebook management. Designed for integration into external "
+"applications that need to spawn temporary Jupyter environments and serve "
+"notebooks to end users."
+msgstr ""
+"Eine containerisierte, multiuserfähige JupyterHub-Instanz mit einer "
+"einheitlichen REST-API zur Verwaltung von Notebooks. Entwickelt für die "
+"Integration in externe Anwendungen, die temporäre Jupyter-Umgebungen "
+"starten und Notebooks für Endnutzer bereitstellen müssen."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:43
+#, python-format
+msgid ""
+"Configurable pool of guest users for concurrent sessions (e.g. "
+"%(example)s)"
+msgstr ""
+"Pool konfigurierbarer Gastnutzer für gleichzeitige Sitzungen (z.B. "
+"%(example)s)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:44
+msgid ""
+"Automatic cleanup of idle servers with configurable timeouts and kernel "
+"lifecycle management"
+msgstr ""
+"Automatische Bereinigung inaktiver Server mit konfigurierbaren Zeitlimits"
+" und Kernel-Lebenszyklusverwaltung"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:45
+msgid "Per-container resource limits for CPU, memory, and disk"
+msgstr ""
+"Pro-Container-Ressourcenlimits für CPU, Arbeitsspeicher und "
+"Festplattenplatz"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:46
+msgid "Admin dashboard for configuring limits and monitoring active sessions"
+msgstr ""
+"Admin-Dashboard zur Konfiguration von Limits und Überwachung aktiver "
+"Sitzungen"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:47
+msgid "Unified REST API on a single port for all operations"
+msgstr "Einheitliche REST-API über einen einzigen Port für alle Operationen"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:52
+msgid "Service for Knowledge Graph Creation"
+msgstr "Service zur Erstellung von Knowledge Graphs"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:52
+msgid ""
+"This API transforms heterogeneous data sources into RDF knowledge graphs "
+"using SDM-RDFizer executed with RML mappings. RML (RDF Mapping Language) "
+"is a declarative language for defining how data elements from sources "
+"such as CSV, JSON, or XML correspond to RDF subjects, predicates, and "
+"objects. The API allows users to submit datasets and RML mapping rules, "
+"automatically execute the transformation process, and output the "
+"resulting knowledge graph to a specified folder."
+msgstr ""
+"Diese API transformiert heterogene Datenquellen mithilfe von SDM-RDFizer "
+"und RML-Mappings in RDF-Knowledge-Graphs. RML (RDF Mapping Language) ist "
+"eine deklarative Sprache, mit der definiert wird, wie Datenelemente aus "
+"Quellen wie CSV, JSON oder XML auf RDF-Subjekte, Prädikate und Objekte "
+"abgebildet werden. Die API ermöglicht es Nutzern, Datensätze und RML-"
+"Mappingregeln einzureichen, den Transformationsprozess automatisch "
+"auszuführen und den resultierenden Knowledge Graph in einen angegebenen "
+"Ausgabeordner zu exportieren."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:54
+msgid ""
+"Supports heterogeneous source formats (CSV, JSON, XML, relational "
+"databases)"
+msgstr ""
+"Unterstützt heterogene Quellformate (CSV, JSON, XML, relationale "
+"Datenbanken)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:55
+msgid "Automated RDF triple generation based on RML mapping rules"
+msgstr "Automatisierte RDF-Tripel-Generierung auf Basis von RML-Mappingregeln"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:56
+msgid "Knowledge graph output to a configurable folder"
+msgstr "Ausgabe des Knowledge Graphs in einen konfigurierbaren Ordner"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:61
+msgid "Service for Knowledge Graph Integration"
+msgstr "Service zur Integration von Knowledge Graphs"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:61
+msgid ""
+"This API maps dataset metadata properties to those defined in a mapping "
+"template. The purpose of this service is to map dataset metadata to the "
+"structure required by the dataset template of the Leibniz Data Manager "
+"(LDM), facilitating easier import of datasets into the platform."
+msgstr ""
+"Diese API bildet Metadateneigenschaften von Datensätzen auf diejenigen "
+"ab, die in einer Mapping-Vorlage definiert sind. Der Zweck dieses "
+"Services besteht darin, Metadaten von Datensätzen auf die Struktur "
+"abzubilden, die von der Datensatzvorlage des Leibniz Data Managers (LDM) "
+"verlangt wird, um den Import von Datensätzen in die Plattform zu "
+"erleichtern."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:63
+msgid "User-defined mapping templates for linking existing metadata properties"
+msgstr ""
+"Nutzerdefinierte Mapping-Vorlagen zur Verknüpfung vorhandener "
+"Metadateneigenschaften"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:64
+msgid "Support for nested metadata structures via iterator configuration"
+msgstr ""
+"Unterstützung für verschachtelte Metadatenstrukturen über Iterator-"
+"Konfiguration"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:65
+msgid ""
+"Generates a structured output file compatible with the LDM dataset "
+"template"
+msgstr ""
+"Erzeugung einer strukturierten Ausgabedatei, die mit dem LDM-Template "
+"kompatibel ist"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:70
+msgid "Service for Knowledge Graph Exploration"
+msgstr "Service zur Exploration von Knowledge Graphs"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:70
+msgid ""
+"This API returns metadata about datasets associated with a scientific "
+"publication or an author's ORCID. It supports both single-entry lookups "
+"and batch processing of multiple DOIs in a single request."
+msgstr ""
+"Diese API liefert Metadaten zu Datensätzen, die mit einer "
+"wissenschaftlichen Publikation oder mit der ORCID eines Autors verbunden "
+"sind. Sie unterstützt sowohl die Abfrage einzelner Einträge als auch die "
+"Stapelverarbeitung mehrerer DOIs in einem einzigen Aufruf."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:72
+msgid ""
+"Retrieve dataset metadata by DOI — individually or as a batch of multiple"
+" DOIs"
+msgstr ""
+"Abfrage von Datensatzmetadaten anhand einer DOI (einzeln oder als Batch "
+"mehrerer DOIs)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:73
+msgid "Retrieve dataset metadata by an author's ORCID"
+msgstr "Abfrage von Datensatzmetadaten anhand der ORCID eines Autors"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:74
+msgid "Retrieve datasets citing an author's work, identified by ORCID"
+msgstr "Abruf von Datensätzen, die Werke eines Autors zitieren, anhand der ORCID"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:75
+msgid "Supports both GET and POST requests"
+msgstr "Unterstützt sowohl GET- als auch POST-Anfragen"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:85
+#, python-format
+msgid "All available APIs can be found in this %(github_link)s repository."
+msgstr "Alle verfügbaren APIs finden Sie in diesem %(github_link)s-Repository."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:94
+#: ckanext/theme_ldm_tib/templates/home/demo.html:41
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:41
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:30
+#, python-format
+msgid "Please, contact us at %(contact_link)s if you have comments or questions."
+msgstr ""
+"Bitte kontaktieren Sie uns unter %(contact_link)s, wenn Sie Kommentare "
+"oder Fragen haben."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:4
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:7
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:13
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:21
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:22
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:57
+msgid "Data Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:14
+msgid "Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:15
+msgid ""
+"Data protection is of high priority for the Technische "
+"Informationsbibliothek (TIB). As a general rule, the use of TIB’s "
+"services does not require the provision of any personal data. However, "
+"the processing of personal data may be required where a data subject "
+"wants to use special services via the TIB’s web pages. Where the "
+"processing of personal data is required and where there is no legal basis"
+" for such processing, we shall obtain the data subject’s consent."
+msgstr ""
+"Datenschutz hat einen hohen Stellenwert für die Technische "
+"Informationsbibliothek (TIB). Eine Nutzung der Dienstleistungen der TIB "
+"ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich. "
+"Sofern eine betroffene Person besondere Services über die Internetseiten "
+"der TIB in Anspruch nehmen möchte, kann jedoch eine Verarbeitung "
+"personenbezogener Daten erforderlich werden. Ist die Verarbeitung "
+"personenbezogener Daten erforderlich und besteht für eine solche "
+"Verarbeitung keine gesetzliche Grundlage, holen wir eine Einwilligung der"
+" betroffenen Person ein."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:16
+msgid ""
+"The processing of personal data, such as for example the data subject’s "
+"name, address, email address, or telephone number shall always be carried"
+" out in accordance with the General Data Protection Regulation (GDPR) and"
+" the state and institution-specific data protection rules and regulations"
+" applicable to the TIB. This privacy statement serves to inform the "
+"public about the nature, scope and purpose of the personal data we "
+"collect, use and process, as well as of the rights data subjects are "
+"entitled to."
+msgstr ""
+"Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der "
+"Anschrift, der E-Mail-Adresse oder der Telefonnummer einer betroffenen "
+"Person erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und "
+"den für die TIB geltenden landes- und institutionsspezifischen "
+"Datenschutzbestimmungen. Mittels dieser Datenschutzerklärung möchten wir "
+"die Öffentlichkeit über Art, Umfang und Zweck der von uns erhobenen, "
+"genutzten und verarbeiteten personenbezogenen Daten sowie die betroffenen"
+" Personen zustehenden Rechte informieren."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:18
+msgid "European General Data Protection Regulation (GDPR)"
+msgstr "Europäischen Datenschutz-Grundverordnung (DSGVO)"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:20
+#, python-format
+msgid ""
+"The terms used in this privacy statement are to be understood within the "
+"meaning of the %(gdpr_link)s."
+msgstr ""
+"Die in dieser Datenschutzerklärung verwendeten Begrifflichkeiten sind im "
+"Sinne der %(gdpr_link)s zu verstehen."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:22
+msgid "Name and address of the controller"
+msgstr "Name und Anschrift des für die Verarbeitung Verantwortlichen"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:23
+msgid "The controller under data protection law shall be:"
+msgstr "Verantwortlicher im Sinne des Datenschutzrechts ist die:"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:28
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:49
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:56
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:20
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:25
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:26
+msgid "Germany"
+msgstr "Deutschland"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:33
+msgid "Website"
+msgstr "Webseite"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:36
+msgid "Name and address of the data protection officer"
+msgstr "Name und Anschrift der Datenschutzbeauftragten"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:37
+msgid "The data protection officer of the controller shall be:"
+msgstr "Die Datenschutzbeauftragte des für die Verarbeitung Verantwortlichen ist:"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:39
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:46
+msgid "Data Protection Officer"
+msgstr "Datenschutzbeauftragte"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:43
+msgid "Postal Address"
+msgstr "Postanschrift"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:51
+msgid "Visiting Address"
+msgstr "Besuchsadresse"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:58
+msgid ""
+"Any data subject may contact our data protection officer directly "
+"regarding any and all questions and suggestions regarding data protection"
+" at any time."
+msgstr ""
+"Jede betroffene Person kann sich jederzeit bei allen Fragen und "
+"Anregungen zum Datenschutz direkt an unsere Datenschutzbeauftragte "
+"wenden."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:63
+msgid "Registration for TIB services"
+msgstr "Registrierung für Dienstleistungen der TIB"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:64
+msgid ""
+"Users may register for services via TIB’s web pages. When registering, "
+"TIB collects personal data in order to be able to provide such services "
+"to users. The services cannot be used without providing the required "
+"data."
+msgstr ""
+"Über die Internetseiten der TIB können Benutzerinnen und Benutzer sich "
+"für Dienstleistungen registrieren. Bei Registrierung erhebt die TIB "
+"personenbezogene Daten, um die Dienstleistungen für die Benutzerinnen und"
+" Benutzer erbringen zu können. Ohne Bereitstellung der Daten können die "
+"Dienstleistungen nicht in Anspruch genommen werden."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:67
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:7
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
+msgid "Terms of Use of the TIB"
+msgstr "Nutzungsbedingungen der TIB"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:72
+#, python-format
+msgid ""
+"Which data is collected depends on the service. The legal basis for the "
+"collection of such data shall be the %(terms_use)s, the "
+"%(special_conditions)s applicable to the respective service, or the "
+"consent given by the user. For further information, please refer to the "
+"information sheets on data protection provided for the respective "
+"services offered by the TIB."
+msgstr ""
+"Welche Daten erhoben werden, ist abhängig von der Dienstleistung. "
+"Rechtsgrundlage für die Erhebung dieser Daten sind die %(terms_use)s, die"
+" für die jeweilige Dienstleistung geltenden %(special_conditions)s bzw. "
+"die Einwilligung der Benutzerin oder des Benutzers. Mehr Informationen "
+"entnehmen Sie bitte den für die Dienstleistungen der TIB jeweils "
+"bereitgestellten Informationsblättern zum Datenschutz."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:74
+msgid "TIB services with registration"
+msgstr "Dienstleistungen der TIB mit Registrierung"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:75
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
+msgid "e.g."
+msgstr "z.B."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:77
+msgid "Registration for the local use of the TIB (library card)"
+msgstr "Anmeldung für die Benutzung der TIB vor Ort (Bibliotheksausweis)"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:78
+msgid "Registration for the TIB Document Delivery"
+msgstr "Anmeldung für die TIB Dokumentlieferung"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:79
+msgid "Registration for the use of the TIB AV Portal"
+msgstr "Anmeldung für die Nutzung des TIB AV-Portals"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:80
+msgid "Registration for the use of the oer-recommender"
+msgstr "Anmeldung für die Nutzung des OER-Recommenders"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:81
+msgid "Registration for the use of the LDM"
+msgstr "Anmeldung für die Nutzung des LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:83
+msgid ""
+"The TIB processes and stores the data subject’s personal data only for "
+"the period of time necessary to achieve the purpose of the storage or for"
+" the period of time for which the consent was given and in compliance "
+"with the General Data Protection Regulation as well as the state and "
+"institution-specific data protection rules and regulations applicable to "
+"the TIB. Thereafter, the personal data shall routinely be blocked or "
+"deleted in accordance with the statutory provisions. If the user no "
+"longer wishes to use the services of the TIB and in the absence of any "
+"claims of the TIB against the user and of any other legal basis for "
+"storage, we shall delete the personal data upon request. Where the user "
+"does not use the service for a prolonged period of time, the personal "
+"data will be deleted after the expiry of a period separately specified "
+"for the respective service."
+msgstr ""
+"Die TIB verarbeitet und speichert personenbezogene Daten der betroffenen "
+"Person nur für den Zeitraum, der zur Erreichung des Speicherungszwecks "
+"erforderlich bzw. für den die Einwilligung erteilt ist und im Einklang "
+"mit der Datenschutz-Grundverordnung und den für die TIB geltenden landes-"
+" und institutionsspezifischen Datenschutzbestimmungen. Danach werden die "
+"personenbezogenen Daten routinemäßig und entsprechend den gesetzlichen "
+"Vorschriften gesperrt oder gelöscht. Sofern die Benutzerin oder der "
+"Benutzer die Dienstleistungen der TIB nicht mehr nutzen möchte und die "
+"TIB gegenüber der Benutzerin oder dem Benutzer keine Ansprüche mehr hat "
+"und kein sonstiger Rechtsgrund besteht, löschen wir die personenbezogenen"
+" Daten auf Anfrage. Wurde die Dienstleistung länger nicht genutzt, werden"
+" die personenbezogenen Daten nach Ablauf eines für die jeweilige "
+"Dienstleistung gesondert festgelegten Zeitraums gelöscht."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:89
+msgid "Subscription to TIB newsletters and newsletter tracking"
+msgstr "Abonnement von Newslettern der TIB und Newsletter-Tracking"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:90
+msgid ""
+"Users can subscribe to newsletters via the TIB web pages in order to "
+"receive information on offers and news at regular intervals. This shall "
+"require registration providing title, name and email address. Using the "
+"double opt-in procedure, a confirmation email shall be sent to the email "
+"address first registered by a data subject for the purpose of receiving "
+"the newsletter, in order to check whether the owner of the email address "
+"has authorised receipt of the newsletter."
+msgstr ""
+"Über die Internetseiten der TIB können Benutzerinnen und Benutzer "
+"Newsletter abonnieren, um in regelmäßigen Abständen über Angebote und "
+"Neuigkeiten informiert zu werden. Hierfür ist die Registrierung unter "
+"Angabe von Anrede, Namen und E-Mail-Adresse erforderlich. An die von "
+"einer betroffenen Person erstmalig für den Newsletterversand eingetragene"
+" E-Mail-Adresse wird eine Bestätigungsmail im Double-Opt-In-Verfahren "
+"versendet, um zu prüfen, ob die Inhaberin oder der Inhaber der E-Mail-"
+"Adresse den Empfang des Newsletters autorisiert hat."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:91
+msgid ""
+"When registering for the newsletter, TIB stores the IP address of the "
+"computer system used by the data subject at the time of registration, as "
+"well as the date and time of the registration. Collection of this data is"
+" necessary in order to be able to trace any (possible) misuse of the "
+"email address of a data subject at a later date."
+msgstr ""
+"Bei der Anmeldung zum Newsletter speichert die TIB die IP-Adresse des von"
+" der betroffenen Person zum Zeitpunkt der Anmeldung verwendeten "
+"Computersystems sowie das Datum und die Uhrzeit der Anmeldung. Die "
+"Erhebung dieser Daten ist erforderlich, um den (möglichen) Missbrauch der"
+" E-Mail-Adresse einer betroffenen Person zu einem späteren Zeitpunkt "
+"nachvollziehen zu können."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:92
+msgid ""
+"The personal data collected during registration for a newsletter are used"
+" exclusively for the purpose of sending the newsletter. In addition, "
+"subscribers of the newsletter can be informed by email if this is "
+"necessary for the operation of the newsletter service, e.g. in the event "
+"of changes in content or technical aspects of the newsletter. The "
+"personal data collected for sending the newsletter will not be passed on "
+"to third parties. Subscription to the TIB newsletter can be terminated by"
+" the data subject at any time. Consent to the storage of personal data "
+"for sending the newsletter can be withdrawn at any time. For the purpose "
+"of withdrawal of consent a link is provided in each newsletter. "
+"Furthermore, it is possible to unsubscribe from the newsletter at any "
+"time directly on the website of the controller or to inform the "
+"controller thereof in any other way."
+msgstr ""
+"Die im Rahmen einer Anmeldung zu einem Newsletter erhobenen "
+"personenbezogenen Daten werden ausschließlich zum Versand des Newsletters"
+" verwendet. Ferner können Abonnenten des Newsletters per E-Mail "
+"informiert werden, sofern dies für den Betrieb des Newsletter-Dienstes "
+"erforderlich ist, zum Beispiel im Falle von inhaltlichen oder technischen"
+" Änderungen am Newsletter. Die für den Newsletterversand erhobenen "
+"personenbezogenen Daten werden nicht an Dritte weitergegeben. Das "
+"Abonnement der TIB-Newsletter kann durch die betroffene Person jederzeit "
+"gekündigt werden. Die Einwilligung in die Speicherung personenbezogener "
+"Daten für den Newsletterversand kann jederzeit widerrufen werden. Zum "
+"Zwecke des Widerrufs der Einwilligung findet sich in jedem Newsletter ein"
+" entsprechender Link. Ferner besteht die Möglichkeit, sich jederzeit auch"
+" direkt auf der Internetseite des für die Verarbeitung Verantwortlichen "
+"vom Newsletterversand abzumelden oder dies dem für die Verarbeitung "
+"Verantwortlichen auf andere Weise mitzuteilen."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:93
+msgid ""
+"The TIB newsletters contain so-called tracking pixels. A tracking pixel "
+"is a miniature graphic embedded in emails sent in the HTML format to "
+"enable log file recording and log file analysis. Based on the embedded "
+"tracking pixel, the Technische Informationsbibliothek (TIB) is able to "
+"identify if and when an email was opened by a data subject, and which "
+"links in the email were clicked."
+msgstr ""
+"Die Newsletter der TIB enthalten sogenannte Zählpixel. Ein Zählpixel ist "
+"eine Miniaturgrafik, die in E-Mails eingebettet wird, die im HTML-Format "
+"versendet werden, um eine Logdatei-Aufzeichnung und eine Logdatei-Analyse"
+" zu ermöglichen. Anhand des eingebetteten Zählpixels kann die Technische "
+"Informationsbibliothek (TIB) erkennen, ob und wann eine E-Mail von einer "
+"betroffenen Person geöffnet und welche in der E-Mail befindlichen Links "
+"aufgerufen wurden."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:94
+msgid ""
+"This information is stored and evaluated by the TIB in order to optimise "
+"the distribution and the content of the newsletter. Data subjects may "
+"withdraw the declaration of consent given via the double opt-in "
+"procedure. Following withdrawal, this personal data will be deleted by "
+"the TIB. TIB shall construe any unsubscribing of the newsletter to "
+"constitute a withdrawal."
+msgstr ""
+"Diese Informationen werden von der TIB gespeichert und ausgewertet, um "
+"den Newsletterversand und den Inhalt des Newsletters zu optimieren. "
+"Betroffene Personen können die über das Double-Opt-In-Verfahren "
+"abgegebene Einwilligungserklärung widerrufen. Nach einem Widerruf werden "
+"diese personenbezogenen Daten von der TIB gelöscht. Eine Abmeldung vom "
+"Erhalt des Newsletters deutet die TIB als Widerruf."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:100
+msgid "Contact possibility via the web pages"
+msgstr "Kontaktmöglichkeit über die Internetseiten"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:101
+msgid ""
+"The TIB's web pages contain information and forms that enable quick "
+"electronic contacting via contact form or by email providing name and "
+"email address also for customers not registered with the TIB. The "
+"indication of name and email address is necessary to establish contact "
+"following clarification of the data subject’s concerns. The personal data"
+" transmitted by the data subject to the TIB via email or via a contact "
+"form are automatically stored internally and only for the purpose of "
+"processing or contacting the data subject."
+msgstr ""
+"Die Internetseiten der TIB enthalten Angaben und Formulare, die eine "
+"schnelle elektronische Kontaktaufnahme per Kontaktformular oder per "
+"E-Mail auch für nicht bei der TIB registrierte Kundinnen und Kunden unter"
+" Angabe von Namen und E-Mail-Adresse ermöglichen. Die Angabe von Name und"
+" E-Mail-Adresse ist zur späteren Kontaktaufnahme nach Klärung des "
+"Anliegens der betroffenen Person erforderlich. Die per E-Mail oder über "
+"ein Kontaktformular von der betroffenen Person an die TIB übermittelten "
+"personenbezogenen Daten werden automatisch intern und nur zum Zweck der "
+"Bearbeitung oder der Kontaktaufnahme zur betroffenen Person gespeichert."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:107
+msgid "Cookies"
+msgstr "Cookies"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:108
+msgid ""
+"The TIB websites use cookies. Cookies are text files that are placed and "
+"stored on a computer system via an Internet browser and serve to render "
+"the offer of the TIB more user-friendly, effective and secure."
+msgstr ""
+"Die Internetseiten der TIB verwenden Cookies. Cookies sind Textdateien, "
+"welche über einen Internetbrowser auf einem Computersystem abgelegt und "
+"gespeichert werden, und dienen dazu, das Angebot der TIB "
+"nutzerfreundlicher, effektiver und sicherer zu machen."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:109
+msgid ""
+"Most of the cookies used are so-called “session cookies”, which are "
+"automatically deleted at the end of the visit. Other cookies remain "
+"stored on the user’s terminal device until he or she deletes them. These "
+"cookies enable the TIB to recognise the user’s browser on his or her next"
+" visit."
+msgstr ""
+"Die meisten der verwendeten Cookies sind sogenannte Session-Cookies, die "
+"nach Ende des Besuchs automatisch gelöscht werden. Andere Cookies bleiben"
+" auf dem Endgerät der Nutzerin oder des Nutzers gespeichert, bis die "
+"Nutzerin oder der Nutzer diese löschen. Diese Cookies ermöglichen es der "
+"TIB, den Browser der Nutzerin oder des Nutzers beim nächsten Besuch "
+"wiederzuerkennen."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:110
+msgid ""
+"Users can prevent and permanently object to the setting of cookies by TIB"
+" websites at any time by choosing the corresponding settings of the "
+"Internet browser used. Furthermore, cookies already set can be deleted at"
+" any time with the Internet browser or by other software programs. This "
+"is possible in all common Internet browsers. If the data subject "
+"deactivates the setting of cookies in the Internet browser used, the TIB "
+"web pages may not function properly."
+msgstr ""
+"Die Nutzerinnen und Nutzer können das Setzen von Cookies durch die "
+"Internetseiten der TIB jederzeit durch die Auswahl der entsprechenden "
+"Einstellungen des genutzten Internetbrowsers verhindern und dauerhaft "
+"widersprechen. Ferner können bereits gesetzte Cookies jederzeit über den "
+"Internetbrowser oder andere Softwareprogramme gelöscht werden. Dies ist "
+"in allen gängigen Internetbrowsern möglich. Deaktiviert die betroffene "
+"Person das Setzen von Cookies in dem genutzten Internetbrowser, sind "
+"unter Umständen nicht alle Funktionen der Internetseiten der TIB "
+"vollumfänglich nutzbar."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:117
+msgid "Use of web analysis tools"
+msgstr "Einsatz von Webanalyse-Tools"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:121
+#, python-format
+msgid ""
+"For the creation of the web statistics we use the open source software "
+"%(matomo_link)s (formerly PIWIK) in anonymized form. This means that no "
+"personal data is processed. The use of cookies in the web analysis "
+"software Matomo is deactivated."
+msgstr ""
+"Wir erstellen eine anonymisierte Statistik und Analyse der Zugriffe auf "
+"unsere Webseiten.</p><p>Für die Erstellung der Webstatistik setzen wir "
+"die Open-Source-Software %(matomo_link)s (ehemals PIWIK) in "
+"anonymisierter Form ein. D.h. es werden keine personenbezogenen Daten "
+"verarbeitet. Die Nutzung von Cookies in der Webanalyse-Software Matomo "
+"ist deaktiviert."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:122
+msgid ""
+"When saving the user IP address, the last two octets are not processed. "
+"The collection of the user ID is deactivated. For the analysis, the "
+"following data is collected in addition to the access to the site and the"
+" anonymized IP address: Date and time of the request, page title of the "
+"requested page, URL of the previously requested page (referrer URL), "
+"screen resolution of the client system, local time zone, URL of clicked "
+"and downloaded files, URL of clicked external domains, geolocation of the"
+" client (country, region, city), main language of the used browser, user "
+"agent of the used browser."
+msgstr ""
+"Bei der Speicherung der Nutzer-IP-Adresse werden die letzten beiden "
+"Oktetts nicht verarbeitet. Die Erfassung der Nutzer-ID ist deaktiviert. "
+"Für die Analyse werden neben dem Zugriff auf die Seite und der "
+"anonymisierten IP-Adresse noch folgende Daten erfasst: Datum und Zeit der"
+" Anfrage, Seitentitel der aufgerufenen Seite, URL der vorher aufgerufenen"
+" Seite (Referrer-URL), Bildschirmauflösung des Clientensystems, lokaler "
+"Zeitzone, URL von angeklickten und heruntergeladenen Dateien, URL von "
+"angeklickten externen Domains, Geolocation des Clienten (Land, Region, "
+"Stadt), Haupt-Sprache des benutzen Browsers, User Agent des benutzten "
+"Browsers."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:125
+msgid ""
+"The information generated with Matomo about the use of this website is "
+"processed and stored exclusively with the TIB."
+msgstr ""
+"Die mit Matomo erzeugten Informationen über die Benutzung dieser Webseite"
+" werden ausschließlich bei der TIB verarbeitet und gespeichert."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:127
+msgid ""
+"You may choose not to have a unique web analytics cookie identification "
+"number assigned to your computer to avoid the aggregation and analysis of"
+" data collected on this website."
+msgstr ""
+"Sie haben die Möglichkeit zu verhindern, dass von Ihnen hier getätigte "
+"Aktionen analysiert und verknüpft werden. Dies wird Ihre Privatsphäre "
+"schützen, aber wird auch den Besitzer daran hindern, aus Ihren Aktionen "
+"zu lernen und die Bedienbarkeit für Sie und andere Benutzer zu "
+"verbessern."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:128
+msgid "To make that choice, please click below to receive an opt-out cookie."
+msgstr ""
+"Um diese Entscheidung zu treffen, klicken Sie unten, um einen Opt-Out-"
+"Cookie zu erhalten."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:132
+msgid "You are currently opted out. Uncheck this box to opt back in."
+msgstr ""
+"Sie haben diese Option derzeit deaktiviert. Deaktivieren Sie dieses "
+"Kontrollkästchen, um die Option wieder zu aktivieren."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:133
+msgid "You are currently opted in. Check this box to opt out."
+msgstr ""
+"Sie haben diese Option derzeit aktiviert. Aktivieren Sie dieses "
+"Kontrollkästchen, um die Option wieder zu deaktivieren."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:139
+msgid ""
+"In this case, an opt-out cookie is placed in the browser of the data "
+"subject, which prevents Matomo from storing usage data. When the cookies "
+"are deleted, the Matomo opt-out cookie is also deleted. Such objection "
+"(opt-out) must be redeclared when visiting the TIB website again"
+msgstr ""
+"In diesem Fall wird im Browser der betroffenen Person ein Opt-Out-Cookie "
+"hinterlegt, der verhindert, dass Matomo Nutzungsdaten speichert. Wenn die"
+" Cookies gelöscht werden, wird auch das Matomo Opt-Out-Cookie gelöscht. "
+"Der Widerspruch (Opt-Out) muss bei einem erneuten Besuch der "
+"Internetseite der TIB wiederholt werden."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:146
+msgid "Collection of general data and information (logfiles)"
+msgstr "Erfassung von allgemeinen Daten und Informationen (Logfiles)"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:147
+msgid ""
+"Whenever a data subject calls the TIB web pages, these pages "
+"automatically collect information in so-called server log files, which "
+"your browser automatically transmits to the TIB. This is:"
+msgstr ""
+"Die Internetseiten der TIB erfassen mit jedem Aufruf durch eine "
+"betroffene Person automatisch Informationen in so genannten Server-Log "
+"Files, die Ihr Browser automatisch an die TIB übermittelt. Dies sind:"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:149
+msgid "Browser type and browser version"
+msgstr "Browsertyp und Browserversion"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:150
+msgid "Operating system used"
+msgstr "verwendetes Betriebssystem"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:151
+msgid "Referrer URL"
+msgstr "Referrer URL"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:152
+msgid "Hostname of the accessing computer"
+msgstr "Hostname des zugreifenden Rechners"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:153
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:154
+msgid "Internet service provider of the accessing system"
+msgstr "Internet-Service-Provider des zugreifenden Systems"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:155
+msgid "Time of the server request"
+msgstr "Uhrzeit der Serveranfrage"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:157
+msgid ""
+"As a general rule, this data is not attributable to a particular person. "
+"This data will not be merged with other data sources."
+msgstr ""
+"Diese Daten sind in der Regel nicht einer bestimmten Person zuordenbar. "
+"Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht "
+"vorgenommen."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:159
+msgid "Routine deletion and blocking of personal data"
+msgstr "Routinemäßige Löschung und Sperrung von personenbezogenen Daten"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:160
+msgid ""
+"The TIB processes and stores the data subject’s personal data only for "
+"the period necessary to achieve the purpose of such storage and in "
+"accordance with the General Data Protection Regulation and the country "
+"and institution-specific data protection regulations applicable to the "
+"TIB. Thereafter, the personal data will routinely be blocked or deleted "
+"in accordance with the statutory provisions."
+msgstr ""
+"Die TIB verarbeitet und speichert personenbezogene Daten der betroffenen "
+"Person nur für den Zeitraum, der zur Erreichung des Speicherungszwecks "
+"erforderlich ist und im Einklang mit der Datenschutz-Grundverordnung und "
+"den für die TIB geltenden landes- und institutionsspezifischen "
+"Datenschutzbestimmungen. Danach werden die personenbezogenen Daten "
+"routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder"
+" gelöscht."
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:162
+msgid "Rights of the data subject"
+msgstr "Rechte der betroffenen Person"
+
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:163
+msgid ""
+"You shall at any time be entitled to obtain information about the data "
+"stored in this library, its origin and recipient and about the purpose of"
+" such data processing, as well as to rectification or erasure or "
+"restriction of processing or – to the extent that such processing is "
+"based on your consent – a right of withdrawal, possibly a right of "
+"objection and the right to data portability. Complaints may be lodged "
+"with the above-mentioned supervisory authority. You can contact us at any"
+" time for further questions on the subject of personal data."
+msgstr ""
+"Sie haben jederzeit das Recht, Auskunft über die in dieser Bibliothek "
+"gespeicherten Daten, deren Herkunft und Empfänger und den Zweck der "
+"Datenverarbeitung zu erhalten, sowie auf Berichtigung oder Löschung oder "
+"auf Einschränkung der Verarbeitung oder -soweit die Verarbeitung auf "
+"Ihrer Einwilligung basiert- ein Widerrufsrecht, ggfls. ein "
+"Widerspruchsrecht sowie das Recht auf Datenübertragbarkeit. Beschwerden "
+"können jederzeit bei oben angegebener Aufsichtsbehörde vorgebracht "
+"werden. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten "
+"können Sie sich jederzeit an uns wenden."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:14
+msgid "LDM Demo"
+msgstr "LDM-Demo"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:15
+msgid ""
+"This demo presents the Leibniz Data Manager (LDM) and illustrates how "
+"Semantic Web technologies and  FAIR principles empower research data "
+"management. The demonstration shows how various digital objects are "
+"created and puts in perspective the crucial role of metadata in efficient"
+" and effective management and analysis of research data management."
+msgstr ""
+"Diese Demo präsentiert den Leibniz Data Manager (LDM) und "
+"veranschaulicht, wie Semantic-Web-Technologien und die FAIR-Prinzipien "
+"das Forschungsdatenmanagement unterstützen. Das Demo zeigt, wie "
+"verschiedene digitale Objekte erstellt werden und verdeutlicht die "
+"entscheidende Rolle von Metadaten für eine effiziente und effektive "
+"Verwaltung sowie Analyse von Forschungsdaten."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:17
+msgid "demonstration"
+msgstr "Demonstration"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:19
+#, python-format
+msgid "The %(demo_link)s comprises:"
+msgstr "Die %(demo_link)s umfasst:"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:22
+msgid ""
+"This short paper is published in the WSDM '25: Proceedings of the "
+"Eighteenth ACM International Conference on Web Search and Data Mining "
+"(March 2025). It describes the main features of the Leibniz Data Manager,"
+msgstr ""
+"Dieses Kurzpapier ist veröffentlicht in den WSDM '25: Proceedings of the "
+"Eighteenth ACM International Conference on Web Search and Data Mining "
+"(März 2025). Es beschreibt die Hauptmerkmale des Leibniz Data Managers."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:23
+msgid "Paper"
+msgstr "Wissenschaftliches Papier"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:26
+msgid "A poster summarizing the project,"
+msgstr "Ein Poster mit einer Zusammenfassung des Projekts,"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:27
+msgid "Poster"
+msgstr "Poster"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:30
+msgid "A video showing the LDM features."
+msgstr "Ein Video, das die Funktionen des LDM zeigt."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:31
+msgid "Demo Video"
+msgstr "Demo-Video"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:34
+msgid ""
+"A Jupyter Notebook explaining the use of the LDM’s API (CKAN), for "
+"developers who want to write code that interacts with LDM instances and "
+"their data."
+msgstr ""
+"Ein Jupyter Notebook, das die Anwendung der LDM-API (CKAN) für Entwickler"
+" oder Entwicklerinnen erklärt, die Code schreiben wollen, der mit LDM-"
+"Instanzen und deren Daten interagiert."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:35
+msgid "Jupyter Notebook"
+msgstr "Jupyter Notebook"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:44
+msgid "RDM Services in the LDM"
+msgstr "FDM-Services im LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:55
+msgid "Wikidata Explorer Feature"
+msgstr "Funktion des Wikidata-Explorers"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:56
+msgid "Extend your dataset with information from Wikidata"
+msgstr "Erweitern Sie Ihren Datensatz mit Informationen aus Wikidata"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:63
+msgid ""
+"With this feature the user is able to extend CSV datasets with existing "
+"information in the Wikidata KG. The tool applies entity linking to all "
+"concepts in the same column and enable the user to use the extracted "
+"entities to extend the dataset."
+msgstr ""
+"Mit dieser Funktion kann der Nutzer CSV-Datensätze um vorhandene "
+"Informationen aus dem Wikidata KG erweitern. Das Tool wendet die "
+"Entitätsverknüpfung auf alle Begriffe in derselben Spalte an und "
+"ermöglicht es dem Nutzer, die extrahierten Entitäten zur Erweiterung des "
+"Datensatzes zu verwenden."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:64
+#: ckanext/theme_ldm_tib/templates/home/demo.html:91
+#: ckanext/theme_ldm_tib/templates/home/demo.html:118
+#: ckanext/theme_ldm_tib/templates/home/demo.html:147
+#: ckanext/theme_ldm_tib/templates/home/demo.html:174
+msgid "Here below is a demo video of how the tool works:"
+msgstr ""
+"Nachfolgend finden Sie ein Demo-Video, das die Funktionsweise des Tools "
+"veranschaulicht:"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:68
+#: ckanext/theme_ldm_tib/templates/home/demo.html:95
+#: ckanext/theme_ldm_tib/templates/home/demo.html:122
+#: ckanext/theme_ldm_tib/templates/home/demo.html:151
+#: ckanext/theme_ldm_tib/templates/home/demo.html:178
+msgid "Your browser does not support the video tag."
+msgstr "Ihr Browser unterstützt das Video-Tag nicht."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:82
+msgid "Federated Search"
+msgstr "Föderierte Suche"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:83
+msgid "Retrieve answers from multiple ORKGs in a single query"
+msgstr "Antworten aus mehreren ORKGs in einer einzigen Abfrage abrufen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:90
+msgid ""
+"This feature enables users to execute SPARQL queries over a federation of"
+" ORKGs, i.e., retrieving answers from multiple KGs with a single query. "
+"DeTrusty decomposes the query and retrieves the answers from the "
+"appropriate KGs. The federation includes but is not limited to the LDM KG"
+" and the ORKG."
+msgstr ""
+"Diese Funktion ermöglicht es Benutzern, SPARQL-Abfragen über einen "
+"Verbund von ORKGs auszuführen, d.h., mit einer einzigen Abfrage Antworten"
+" aus mehreren KGs abzurufen. DeTrusty zerlegt die Abfrage und ruft die "
+"Antworten aus den entsprechenden KGs ab. Der Verbund umfasst unter "
+"anderem das LDM KG und das ORKG."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:109
+msgid "Enhancing Links between ORKG KGs"
+msgstr "Stärkung der Verbindungen zwischen den ORKG KGs"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:110
+msgid "Describe a dataset and its relations with scientific articles"
+msgstr ""
+"Beschreiben Sie einen Datensatz und dessen Zusammenhänge mit "
+"wissenschaftlichen Artikeln"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:117
+msgid ""
+"By adding the DOI of the paper that defines the dataset to the LDM, a "
+"link to the corresponding paper in the ORKG will be added to the dataset."
+msgstr ""
+"Durch Hinzufügen der DOI des Artikels, in dem der Datensatz beschrieben "
+"wird, zum LDM wird dem Datensatz ein Link zum entsprechenden Artikel in "
+"der ORKG hinzugefügt."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:138
+msgid "Live Code"
+msgstr "Live-Code"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:139
+msgid "Creating, sharing, and executing live code interactively"
+msgstr "Live-Code interaktiv erstellen, teilen und ausführen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:146
+msgid ""
+"This feature enables users to create, share, and execute live code "
+"interactively. We use JupyterHub, which allows multiple users to use the "
+"Jupyter Notebook and manages a separate Jupyter environment for each "
+"user. The feature facilitates exploratory data analysis and visualization"
+" of code outputs. Furthermore, it is ideal for teaching and data science."
+msgstr ""
+"Mit dieser Funktion können Nutzer interaktiv Live-Code erstellen, teilen "
+"und ausführen. Wir nutzen JupyterHub, das es mehreren Nutzern ermöglicht,"
+" das Jupyter-Notebook zu verwenden, und für jeden Nutzer eine eigene "
+"Jupyter-Umgebung verwaltet. Die Funktion erleichtert die explorative "
+"Datenanalyse und die Visualisierung von Code-Ausgaben. Darüber hinaus "
+"eignet sie sich ideal für den Unterricht und die Datenwissenschaft."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:165
+msgid "Datasets Comparison"
+msgstr "Vergleich von Datensätzen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:166
+msgid "Compare data across multiple datasets"
+msgstr "Daten aus mehreren Datensätzen vergleichen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:173
+msgid ""
+"This feature enables users to compare the data of multiple CSV datasets. "
+"The feature allows the users to analyze the combined data in a table. "
+"Moreover, the feature is capable of producing different plots putting "
+"selected attributes into perspective."
+msgstr ""
+"Mit dieser Funktion können Benutzer die Daten mehrerer CSV-Datensätze "
+"vergleichen. Die Funktion ermöglicht es den Benutzern, die "
+"zusammengeführten Daten in einer Tabelle zu analysieren. Darüber hinaus "
+"kann die Funktion verschiedene Diagramme erstellen, die ausgewählte "
+"Attribute in einen Zusammenhang stellen."
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:4
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:7
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:13
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:28
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:29
+msgid "Imprint"
+msgstr "Impressum"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:14
+msgid ""
+"Imprint for this website – also serves as provider identification "
+"according to § 5 Digitale Dienste Gesetz (DDG)"
+msgstr ""
+"Impressum zu dieser Website – zugleich Anbieterkennzeichnung gem. § 5 "
+"Digitale Dienste Gesetz (DDG)"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:15
+msgid "Provider:"
+msgstr "Herausgeber:"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:22
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:28
+msgid "Authorised Representative:"
+msgstr "Vertretungsberechtigte Person:"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:23
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:28
+msgid "Director of TIB"
+msgstr "Direktor der TIB"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:23
+msgid ""
+"Technische Informationsbibliothek (TIB) is a foundation of public law of "
+"the state of Lower Saxony."
+msgstr ""
+"Die Technische Informationsbibliothek (TIB) ist eine Stiftung "
+"öffentlichen Rechts des Landes Niedersachsen."
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:24
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:29
+msgid "Responsible Supervisory Authority:"
+msgstr "Aufsichtsbehörde:"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:25
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:29
+msgid "Ministry for Science and Culture of Lower Saxony"
+msgstr "Ministerium für Wissenschaft und Kultur des Landes Niedersachsen"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:26
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:31
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:31
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:35
+msgid "VAT (sales tax) registration number"
+msgstr "Umsatzsteuer-Identifikationsnummer"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:33
+msgid "Editorial Office"
+msgstr "Redaktion"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:35
+msgid "Responsible for the content according to § 18 Abs. 2 MStV"
+msgstr "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:39
+msgid "Copyright"
+msgstr "Urheberrechtshinweis"
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:40
+msgid ""
+"The layout of this website is protected under copyright, as are the "
+"graphics and all other contents contained in the website."
+msgstr ""
+"Das Layout der Homepage, die verwendeten Grafiken sowie die sonstigen "
+"Inhalte sind urheberrechtlich geschützt."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:13
+msgid "Rights and roles of different users"
+msgstr "Rechte und Rollen der verschiedenen Benutzer"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:14
+msgid "LDM visitors"
+msgstr "LDM-Besucher"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:15
+msgid ""
+"Any visitor of the website is able to navigate the site, perform searches"
+" over the public datasets, preview and/or download the available public "
+"resources without restrictions."
+msgstr ""
+"Jeder Besucher oder Besucherin der Website kann auf der Website "
+"navigieren, die öffentlichen Datensätze durchsuchen und die verfügbaren "
+"öffentlichen Ressourcen ohne Einschränkungen ansehen und/oder "
+"herunterladen."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:16
+msgid "Users, organizations and authorization"
+msgstr "Benutzer, Organisationen und Autorisierung"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:17
+msgid ""
+"LDM users can register user accounts and log in. Login is not needed to "
+"search for and find data, but is needed for all publishing functions: "
+"datasets can be created, edited, etc by users with the appropriate "
+"permissions. In LDM all research data is managed within Organizations and"
+" Groups. An Organization is an institution or entity where the "
+"researcher/s is/are affiliated."
+msgstr ""
+"LDM-Nutzende können Benutzerkonten anlegen und sich nach Registrierung "
+"anmelden. Die Anmeldung ist nicht erforderlich, um Daten zu suchen und zu"
+" finden, aber für alle Funktionen bezüglich der Veröffentlichung: "
+"Datensätze können von Nutzenden mit den entsprechenden Berechtigungen "
+"erstellt, bearbeitet, hochgeladen usw. werden. In LDM werden alle "
+"Forschungsdaten innerhalb von Organisationen und Gruppen verwaltet. Eine "
+"Organisation ist eine Institution oder Einrichtung, die Forschenden "
+"angehören."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:18
+msgid "Registering to the platform"
+msgstr "Registrierung auf der Plattform"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:22
+#, python-format
+msgid ""
+"In case an organization or group wants to be added to LDM, the "
+"responsible or representative must contact LDM's sysadmin asking for the "
+"creation of the organization or group in the system and creation of an "
+"administrator user to it. For this please email %(contact_link)s."
+msgstr ""
+"Wenn eine Organisation oder Gruppe zu LDM hinzugefügt werden soll, muss "
+"sich der oder die Verantwortliche bzw. der Vertreter oder die Vertreterin"
+" an die Systemadministration von LDM wenden, um die Organisation oder "
+"Gruppe im System anzulegen und einen Administrator-Benutzer oder eine "
+"Administrator-Benutzerin für ihn oder sie einzurichten. Dazu senden Sie "
+"bitte eine E-Mail an %(contact_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:23
+msgid ""
+"After receiving the request, LDM's System Administrators will create the "
+"Organization and Groups and assign an \"Administrator\" user to them. A "
+"new registered user is not able to create datasets until a role is "
+"assigned."
+msgstr ""
+"Nach Erhalt der Anfrage wird die Systemadministration von LDM die "
+"Organisation und die Gruppen erstellen und ihnen einen "
+"\"Administrator\"-Benutzer oder -Benutzerin zuweisen. Ein neu "
+"registrierter Benutzer oder Benutzerin kann keine Datensätze erstellen, "
+"bis ihm oder ihr eine Rolle zugewiesen wird."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:26
+#, python-format
+msgid ""
+"%(bs)sOrganizations%(be)s are controlling which users can add, update and"
+" publish which datasets. Every dataset in LDM must belong to exactly one "
+"organization. If a user is an editor or admin of an organization, then he"
+" or she can create new datasets in that organization, and can edit and "
+"publish the datasets that belong to that organization."
+msgstr ""
+"%(bs)sOrganisationen%(be)s kontrollieren, welche Nutzende welche "
+"Datensätze hinzufügen, aktualisieren und veröffentlichen dürfen. Jeder "
+"Datensatz in LDM muss genau einer Organisation zugeordnet sein. Wenn ein "
+"Nutzer oder eine Nutzerin die Redaktion oder Administration einer "
+"Organisation innehat, kann er oder sie neue Datensätze in dieser "
+"Organisation erstellen und die Datensätze, die zu dieser Organisation "
+"gehören, bearbeiten und veröffentlichen."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:27
+#, python-format
+msgid ""
+"%(bs)sGroups%(be)s are about curation – collecting datasets together into"
+" groups, across organisational boundaries. If a user is an editor or "
+"admin of a group, then he or she can add datasets (that already exist on "
+"the website) into their group and can remove datasets from their group, "
+"but they cannot add new datasets to the site, or edit the datasets that "
+"are in their group. Groups are intended for collecting related datasets "
+"together into themes like \"climate\" etc."
+msgstr ""
+"Bei %(bs)sGruppen%(be)s geht es um die Kuratierung – das Zusammenführen "
+"von Datensätzen in Gruppen, über Organisationsgrenzen hinaus. Wenn ein "
+"Nutzer oder eine Nutzerin die Redaktion oder Administration einer Gruppe "
+"innehat, kann er oder sie Datensätze, die bereits auf der Website "
+"vorhanden sind, zu seiner oder ihrer Gruppe hinzufügen und Datensätze aus"
+" seiner oder ihrer Gruppe entfernen. Jedoch kann er oder sie keine neuen "
+"Datensätze zu LDM hinzufügen oder die Datensätze in seiner oder ihrer "
+"Gruppe bearbeiten. In Gruppen können Datensätze zu bestimmten Themen wie "
+"\"Klima\" zusammengetragen werden."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:28
+msgid ""
+"LDM allows administrator users to add members (users) to "
+"organizations/groups with three kind of roles:"
+msgstr ""
+"LDM erlaubt es Administratoren, Mitglieder (Nutzende) zu "
+"Organisationen/Gruppen hinzuzufügen und drei Arten von Rollen zu "
+"vergeben:"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:29
+msgid "For organizations"
+msgstr "Für Organisationen"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:31
+msgid "Member – can see the organization's private datasets"
+msgstr "Mitglied - kann die privaten Datensätze der Organisation sehen"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:32
+msgid "Editor – can edit and publish datasets"
+msgstr "Editor - kann Datensätze bearbeiten und veröffentlichen"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:33
+msgid "Admin – can add, remove and change roles for organization members"
+msgstr ""
+"Admin - kann Rollen für Organisationsmitglieder hinzufügen, entfernen und"
+" ändern"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:35
+msgid "For groups"
+msgstr "Für Gruppen"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:37
+msgid "Member – can add/remove datasets from groups"
+msgstr "Mitglied - kann Datensätze von Gruppen hinzufügen und entfernen"
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:38
+msgid "Admin – can edit group information, as well as manage group's members."
+msgstr ""
+"Admin - kann die Gruppeninformationen bearbeiten und Gruppenmitglieder "
+"verwalten."
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:40
+msgid ""
+"To be able to add members to organizations/groups the new user must ask "
+"the administrator user her/his addition bringing her/his email and "
+"personal data."
+msgstr ""
+"Um Mitglieder zu Organisationen/Gruppen hinzufügen zu können, muss der "
+"neue Nutzende beim Administrator beantragen, aufgenommen zu werden, und "
+"dabei seine E-Mail-Adresse sowie seine persönlichen Daten angeben."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:4
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:7
+msgid "Special Conditions LDM"
+msgstr "Sonderbedingungen LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:13
+msgid "Terms of Use Leibniz Data Manager"
+msgstr "Nutzungsbedingungen Leibniz Data Manager"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:14
+msgid "Status: April 2022"
+msgstr "Stand: April 2022"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:18
+#, python-format
+msgid ""
+"%(terms_link)s apply, supplemented by the following Special Conditions of"
+" the TIB LDM."
+msgstr ""
+"Es gelten die Allgemeinen %(terms_link)s ergänzt durch die nachfolgenden "
+"Sonderbedingungen des TIB LDM."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:20
+msgid "Special Conditions of the TIB LDM"
+msgstr "Sonderbedingungen des TIB LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:21
+msgid "The Leibniz Data Manager (LDM) service is provided by:"
+msgstr "Der Leibniz Data Manager (LDM) wird bereitgestellt von:"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:37
+msgid "Scope of Application"
+msgstr "Geltungsbereich"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:38
+msgid ""
+"These Special Conditions of the LDM regulate the use of the LDM as well "
+"as the rights and obligations of Registered Users and the TIB in addition"
+" to the Terms of Use of TIB."
+msgstr ""
+"Die vorliegenden Nutzungsbedingungen regeln die Nutzung des LDM sowie die"
+" Rechte und Pflichten der registrierten Nutzerinnen und Nutzer sowie der "
+"TIB."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:42
+#, python-format
+msgid ""
+"LDM is primarily aimed at scholars who want to share, explore and reuse "
+"research datasets in a novel manner. The LDM is built on top of "
+"%(ckan_link)s and the LDM software is freely accessible to everyone."
+msgstr ""
+"LDM richtet sich in erster Linie an Wissenschaftler, die "
+"Forschungsdatensätze auf neuartige Weise gemeinsam nutzen, erforschen und"
+" wiederverwenden wollen. LDM baut auf %(ckan_link)s auf. Die LDM-Software"
+" ist für jede Person frei zugänglich. Jeder Datensatz im LDM wird von "
+"Metadaten beschrieben (unter Verwendung von kontrolliertem Vokabular wie "
+"DCAT oder DataCite) und mit einem Digital Object Identifier (DOI) "
+"versehen, wenn die Erstellerin oder der Ersteller des Datensatzes dies "
+"wünscht."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:44
+msgid "Registration"
+msgstr "Registrierung und Zulassung"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:45
+msgid "LDM datasets can be searched and explored without registration."
+msgstr ""
+"LDM-Inhalte (z. B. Datensets und Metadaten) können ohne Registrierung "
+"durchsucht und erkundet werden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:46
+msgid ""
+"The upload and description of dataset metadata require registration "
+"(Registered Users)."
+msgstr ""
+"Das Hochladen von Datensätzen und ihre Beschreibung mit Metadaten "
+"erfordern eine Registrierung (registrierte Nutzerin oder registrierter "
+"Nutzer)."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:47
+msgid ""
+"An LDM dataset can be accessed following the access rights imposed by the"
+" Registered Users who are the dataset creators."
+msgstr ""
+"Der Zugriff auf einen LDM-Datensatz erfolgt gemäß den Zugriffsrechten, "
+"die von den registrierten Nutzerinnen oder Nutzern, den Erstellerinnen "
+"oder Erstellern der Datensätze, festgelegt wurden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:48
+msgid ""
+"There is no entitlement to registration, account, or profile. The TIB is "
+"entitled to reject registrations or terminate accounts if a violation of "
+"these Special Conditions LDM exists or is expected."
+msgstr ""
+"Ein Anspruch auf Registrierung, ein Konto oder Profil besteht nicht. Die "
+"TIB ist berechtigt, Anmeldungen abzulehnen oder Konten zu sperren, wenn "
+"ein Verstoß gegen diese Sonderbedingungen des LDM vorliegt oder zu "
+"erwarten ist."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:49
+msgid ""
+"When registering, users must agree to the Special Conditions of the LDM "
+"and the Data Protection Declaration. If these Special Conditions of the "
+"LDM are updated, Registered Users will be notified of the changes two "
+"weeks in advance by email. By subsequently continuing to use LDM, "
+"Registered Users agree to the changes."
+msgstr ""
+"Bei der Registrierung müssen die Nutzerinnen oder Nutzer den "
+"Sonderbedingungen des LDM und der Datenschutzerklärung zustimmen. Werden "
+"diese Sonderbedingungen des LDM aktualisiert, werden die registrierten "
+"Nutzerinnen oder Nutzer zwei Wochen im Voraus per E-Mail über die "
+"Änderungen informiert. Durch die weitere Nutzung von LDM erklären sich "
+"die registrierten Nutzerinnen oder Nutzer mit den Änderungen "
+"einverstanden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:50
+msgid ""
+"A usage relationship is established between the TIB and the Registered "
+"User through registration."
+msgstr ""
+"Durch die Registrierung kommt ein Nutzungsverhältnis zwischen der TIB und"
+" der registrierten Nutzerin oder dem registrierten Nutzer zustande."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:51
+msgid ""
+"When registering, users are obliged to fill in mandatory fields "
+"truthfully and completely, to keep their data up-to-date and secret and "
+"to protect data from access by third parties."
+msgstr ""
+"Bei der Registrierung sind die Nutzerinnen oder Nutzer verpflichtet, "
+"Pflichtfelder wahrheitsgemäß und vollständig auszufüllen, ihre Daten "
+"aktuell und geheim zu halten und sie vor dem Zugriff Dritter zu schützen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:52
+msgid "Accounts may be terminated for cause by TIB. A cause can be"
+msgstr ""
+"Konten können von der TIB aus wichtigem Grund gekündigt werden. Ein "
+"wichtiger Grund kann"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:54
+msgid "a breach of the Terms of Use or these Special Conditions or"
+msgstr ""
+"ein Verstoß gegen die Nutzungsbedingungen oder diese Sonderbedingungen "
+"oder"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:55
+msgid "a legal obligation or official order for TIB to block the access or"
+msgstr ""
+"eine gesetzliche Verpflichtung oder behördliche Anordnung zur Sperrung "
+"des Zugangs durch die TIB oder"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:56
+msgid "any other conduct,"
+msgstr "ein sonstiges Verhalten sein,"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:58
+msgid ""
+"which raises the suspicion that the user violates or will violate the "
+"Terms of Use, these Special Conditions or other legal obligations also in"
+" the future."
+msgstr ""
+"das den Verdacht begründet, dass die Nutzerin oder der Nutzer auch in "
+"Zukunft gegen die Nutzungsbedingungen, diese Sonderbedingungen oder "
+"sonstige gesetzliche Verpflichtungen verstößt oder verstoßen wird."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:59
+msgid ""
+"TIB will terminate accounts at the request of the user in text form at "
+"any time and without undue delay. All personal data in the user profile "
+"will be deleted without undue delay. Content created by users remains "
+"published as long as the TIB does not delete this content or the user "
+"does not request its deletion, whereupon the TIB will anonymize this "
+"content."
+msgstr ""
+"Die TIB wird Konten auf Verlangen der Nutzerin oder des Nutzers in "
+"Textform jederzeit und ohne unnötigen Verzug kündigen. Alle "
+"personenbezogenen Daten im Nutzerprofil werden unverzüglich gelöscht. Von"
+" Nutzerinnen oder Nutzern erstellte Inhalte bleiben veröffentlicht, "
+"solange die TIB diese Inhalte nicht löscht oder die Nutzerin bzw. der "
+"Nutzer die Löschung nicht verlangt, woraufhin die TIB diese Inhalte "
+"anonymisiert. Metadaten von Datensätzen mit DOIs bilden eine Ausnahme, d."
+" h. die Metadaten dieser Datensätze werden aufgrund der Bedingungen von "
+"DataCite werden nicht gelöscht. Diese besagen, dass Metadaten von "
+"Datensätzen mit DOIs dauerhaft verfügbar sein sollten. Wie unter 4.4. "
+"beschrieben, können sich die Urheberinnen oder Urheber von Datensätzen "
+"für die DOI-Vergabe an ihre Datensätze entscheiden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:62
+msgid ""
+"Anyone can view and use LDM content (the metadata of the LDM datasets). "
+"Registered Users can add datasets, and create and modify the metadata of "
+"their datasets."
+msgstr ""
+"Jeder Person kann die LDM-Inhalte gemäß der Lizenzen für die "
+"entsprechenden Datensätze und Metadaten einsehen und nutzen. Registrierte"
+" Nutzerinnen oder Nutzer können Datensätze hinzufügen und die Metadaten "
+"ihrer im LDM hochgeladenen Datensätze erstellen und ändern."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:63
+msgid ""
+"The source code is made available under the GNU Affero General Public "
+"v3.0 License."
+msgstr ""
+"Der Quellcode wird unter der Lizenz Creative GNU Affero General Public "
+"v3.0 zur Verfügung gestellt."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:64
+msgid ""
+"Registered Users confirm that the datasets they publish and the metadata "
+"they provide, do not infringe any third-party rights (e.g. copyright, "
+"rights of performers, personality and publicity rights, data protection)."
+" If others are involved in the production, Registered Users confirm that "
+"all participants are aware of the content of this agreement and have "
+"given their consent."
+msgstr ""
+"Die registrierten Nutzerinnen oder Nutzer bestätigen, dass die von ihnen "
+"veröffentlichten Datensätze und die von ihnen bereitgestellten Metadaten "
+"keine Rechte Dritter (z.B. Urheberrechte, Rechte der ausübenden Künstler,"
+" Persönlichkeits- und Publizitätsrechte, Datenschutz) verletzen. Falls "
+"weitere Personen an der Produktion beteiligt sind, bestätigen die "
+"registrierten Nutzerinnen oder Nutzer, dass alle Beteiligten vom Inhalt "
+"dieser Vereinbarung Kenntnis haben und ihre Zustimmung gegeben haben."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:65
+msgid ""
+"Registered Users ensure that the datasets they publish and the metadata "
+"they provide, do not violate applicable law or offend common decency, in "
+"particular, they do not constitute a criminal offense and do not "
+"constitute an administrative offense (e.g. infringement of copyright, "
+"trademark law, competition law) or none have offensive, discriminatory, "
+"racist, pornographic or extremist content. In the event of a violation, "
+"Section 5 applies."
+msgstr ""
+"Die registrierten Nutzerinnen oder Nutzer versichern, dass die von ihnen "
+"veröffentlichten Datensätze und die von ihnen bereitgestellten Metadaten "
+"nicht gegen geltendes Recht oder die guten Sitten verstoßen, insbesondere"
+" keine Straftat und keine Ordnungswidrigkeit darstellen (z.B. Verletzung "
+"von Urheberrecht, Markenrecht, Wettbewerbsrecht) oder keine beleidigende,"
+" diskriminierende, rassistische, pornografische oder extremistische "
+"Inhalte darstellen. Im Falle eines Verstoßes gilt Abschnitt 5."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:66
+msgid ""
+"If a user becomes aware of a violation of the law within the meaning of "
+"3.3 or 3.4 he / she is obliged to inform the TIB immediately."
+msgstr ""
+"Erlangt eine Nutzerin oder ein Nutzer Kenntnis von einem Rechtsverstoß im"
+" Sinne von 3.3 oder 3.4, ist sie oder er verpflichtet, die TIB "
+"unverzüglich zu informieren."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:67
+msgid ""
+"Registered Users will indemnify the TIB from all claims of other users or"
+" third parties that they assert against the TIB due to infringement of "
+"their rights through content published by the respective Registered User,"
+" if the respective user can be held responsible. The respective "
+"Registered User assumes the costs of an appropriate legal defense of the "
+"TIB. This does not apply if the Registered User is not responsible for "
+"the infringement. Users are obliged to provide all information necessary "
+"for the examination of the claims and a defense in the event of a claim "
+"against the TIB truthfully and completely without further delay."
+msgstr ""
+"Registrierte Nutzerinnen oder Nutzer stellen die TIB von allen Ansprüchen"
+" anderer Nutzerinnen bzw. Nutzer oder Dritter frei, die diese gegenüber "
+"der TIB wegen der Verletzung ihrer Rechte durch von der registrierten "
+"Nutzerin oder dem jeweiligen registrierten Nutzer veröffentlichte Inhalte"
+" geltend machen, wenn die jeweilige Nutzerin oder der jeweilige Nutzer "
+"verantwortlich gemacht werden kann. Die jeweilige registrierte Nutzerin "
+"oder der jeweilige registrierte Nutzer übernimmt die Kosten einer "
+"angemessenen Rechtsverteidigung der TIB. Dies gilt nicht, wenn die "
+"registrierte Nutzerin oder der registrierte Nutzer die Rechtsverletzung "
+"nicht zu vertreten hat. Die Nutzerinnen oder Nutzer sind verpflichtet, "
+"alle für die Prüfung der Ansprüche und eine Verteidigung im Falle einer "
+"Inanspruchnahme der TIB wahrheitsgemäß und vollständig und unverzüglich "
+"zur Verfügung zu stellen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:69
+msgid "Functionality of the LDM"
+msgstr "Funktionsweise des LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:70
+msgid ""
+"Anyone can use the LDM service to explore LDM datasets without "
+"registration. The metadata describing the LDM datasets can be reused "
+"freely for any purpose users see fit, in accordance with the CC BY-SA "
+"License (5.2 of these Special Conditions LDM). The LDM datasets can be "
+"reused following the regulations imposed by the license of the dataset, "
+"which is specified by the registered user who created the dataset in LDM."
+msgstr ""
+"Jede Person kann den LDM-Dienst nutzen, um LDM-Datensätze ohne "
+"Registrierung zu erkunden. Die Metadaten, die die LDM-Datensätze "
+"beschreiben, können gemäß der CCO-Lizenz (5.1 dieser Sonderbedingungen "
+"des LDM) für jeden Zweck frei weiterverwendet werden. Die LDM-Datensätze "
+"können gemäß den Bestimmungen der Lizenz des Datensatzes weiterverwendet "
+"werden, die von der registrierten Nutzerin oder dem registrierten Nutzer,"
+" die oder der den Datensatz in LDM erstellt hat, angegeben wird. Falls "
+"die Datensätze aus anderen Datenquellen importiert wurden, unterliegt die"
+" Verwendung dieser Datensätze und ihrer Metadaten den von der Erstellerin"
+" oder vom Ersteller der Datensätze angegebenen Lizenzen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:71
+msgid ""
+"LDM provides functionality that requires registration. Adding and "
+"editing, including deleting, existing datasets and their metadata is "
+"reserved for Registered Users. Metadata about the LDM datasets is created"
+" and edited in accordance with the CC0 License (5.1 of these Special "
+"Conditions LDM). Registered Users obtain LDM user profiles, can link "
+"their profile to ORCiD; the profiles include provenance information."
+msgstr ""
+"LDM bietet Funktionen, die eine Registrierung erfordern. Das Hinzufügen "
+"und Bearbeiten, einschliesslich Löschen, von bestehenden Datensätzen und "
+"deren Metadaten ist registrierten Nutzerinnen oder Nutzer vorbehalten. "
+"Ausnahme sind Metadaten von Datensätzen mit DOIs, die aufgrund der "
+"Bedingungen von DataCite für die dauerhafte Verfügbarkeit von DOIs nicht "
+"gelöscht werden. Metadaten von LDM-Datensätzen werden in Übereinstimmung "
+"mit der CC0-Lizenz (5.1 dieser Sonderbedingungen des LDM) erstellt und "
+"bearbeitet. Registrierte Nutzerinnen oder Nutzer erhalten LDM-"
+"Nutzerprofile, können ihr Profil mit ORCiD verknüpfen; die Profile "
+"enthalten Informationen zur Provenienz."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:72
+msgid ""
+"LDM provides programmatic access to the content (API). Anyone can use the"
+" LDM API to access existing content. Creating and editing, including "
+"deleting, existing content via the LDM API is reserved for Registered "
+"Users."
+msgstr ""
+"LDM bietet einen programmatischen Zugang zu den Inhalten (API). Jeder "
+"Person kann die LDM-API nutzen, um auf bestehende Inhalte zuzugreifen. "
+"Das Erstellen und Bearbeiten, einschließlich des Löschens, bestehender "
+"Inhalte über die LDM-API ist registrierten Nutzerinnen und Nutzern "
+"vorbehalten. Als Ausnahme werden die Metadaten von Datensätzen mit DOIs "
+"aufgrund der dauerhaften Verfügbarkeit von DOIs gemäß den Bedingungen von"
+" DataCite nicht gelöscht."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:73
+msgid ""
+"LDM enables DOI-based publication of LDM datasets. In doing so, metadata "
+"including creator names and, if known, ORCiD IDs are shared with "
+"DataCite. If a Registered User publishes an LDM dataset in this form, she"
+" or he agrees to the sharing of metadata with DataCite. The sharing of "
+"such data is based on user consent given as part of the service of "
+"DataCite e. V. and ORCiD. Registered Users need to connect their LDM "
+"profile with ORCiD and need to explicitly activate DOI-based publication "
+"of the LDM datasets."
+msgstr ""
+"LDM ermöglicht die DOI-basierte Veröffentlichung von LDM-Datensätzen. "
+"Dabei werden Metadaten, einschließlich der Namen der Autoren und, falls "
+"bekannt, ORCiD-IDs, mit DataCite geteilt. Wenn eine registrierte Nutzerin"
+" oder ein registrierte Nutzer einen LDM-Datensatz in dieser Form "
+"veröffentlicht, erklärt sie oder er sich mit der Weitergabe von Metadaten"
+" an DataCite einverstanden. Die Weitergabe dieser Daten basiert auf der "
+"Zustimmung der Nutzerin oder des Nutzers, die im Rahmen des Services von "
+"DataCite e. V. und ORCiD erteilt wird. Registrierte Nutzerinnen oder "
+"Nutzer können ihr LDM-Profil mit ORCiD verknüpfen und die DOI-basierte "
+"Veröffentlichung der LDM-Datensätze explizit aktivieren."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:75
+msgid "Rights and obligations of the TIB"
+msgstr "Rechte und Pflichten der TIB"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:76
+msgid ""
+"LDM dataset metadata created by Registered Users is licensed to TIB under"
+" the licence CC0 1.0 Universal (CC0 1.0 Public Domain Dedication)."
+msgstr ""
+"Die von registrierten Nutzerinnen oder Nutzern erstellten Metadaten der "
+"LDM-Datensätze sind unter der Lizenz CC0 1.0 Universal (CC0 1.0 Public "
+"Domain Dedication) an die TIB lizenziert."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:77
+msgid ""
+"The TIB assumes no liability that the service and its content are always "
+"uninterrupted, unchanged and available in full, as well as being up-to-"
+"date and free from errors of an editorial or technical nature. No "
+"liability is accepted for damage caused by trusting the content of the "
+"platform or its use."
+msgstr ""
+"Die TIB übernimmt keine Haftung dafür, dass der Dienst und sein Inhalt "
+"stets ununterbrochen, unverändert und vollständig zur Verfügung stehen, "
+"sowie aktuell und frei von Fehlern redaktioneller oder technischer Art "
+"sind. Es wird keine Haftung für Schäden, die durch das Vertrauen auf die "
+"Inhalte der Plattform oder deren Nutzung entstanden sind."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:78
+msgid ""
+"The TIB reserves the right to change the functionality, the appearance "
+"and these Special Conditions of the LDM at any time. Registered Users "
+"will be informed of the changes two weeks in advance by email. By "
+"continuing to use the platform after the deadline, users agree to the "
+"changes."
+msgstr ""
+"Die TIB behält sich das Recht vor, die Funktionalität, das "
+"Erscheinungsbild und diese Sonderbedingungen des LDM jederzeit zu ändern."
+" Die registrierten Nutzerinnen oder Nutzer werden zwei Wochen im Voraus "
+"per E-Mail über die Änderungen informiert. Durch die weitere Nutzung der "
+"Plattform nach Ablauf der Frist erklären sich die Nutzerinnen oder Nutzer"
+" mit den Änderungen einverstanden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:79
+msgid ""
+"The TIB is entitled to terminate its service at any time. In this case, "
+"the TIB reserves the right to delete the content. However, this does not "
+"result in an obligation to delete the content."
+msgstr ""
+"Die TIB ist berechtigt, ihren Dienst jederzeit einzustellen. In diesem "
+"Fall behält sich die TIB das Recht vor, die Inhalte zu löschen. Daraus "
+"ergibt sich jedoch keine Verpflichtung zur Löschung der Inhalte. Die "
+"Metadaten von Datensätzen mit DOIs werden nicht gelöscht, sondern auf "
+"andere Weise gespeichert, sodass diese Metadaten weiterhin öffentlich "
+"zugänglich sind (z. B. in einem anderen Repositorium)."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:80
+msgid ""
+"The TIB provides scientific information in all areas of engineering as "
+"well as chemistry, information technology, mathematics and physics to the"
+" public. If content by Registered Users does not satisfy the quality "
+"criteria TIB generally applies to scientific information, TIB may exclude"
+" the content from its services without prior notice."
+msgstr ""
+"Die TIB stellt wissenschaftliche Informationen in allen Bereichen der "
+"Ingenieurwissenschaften sowie Chemie, Informatik, Mathematik und Physik "
+"für die Öffentlichkeit bereit. Wenn Inhalte von registrierten Nutzerinnen"
+" oder Nutzern nicht den Qualitätskriterien entsprechen, die die TIB "
+"generell an wissenschaftliche Informationen anlegt kann die TIB die "
+"Inhalte ohne Vorankündigung von ihren Diensten ausschließen. Die "
+"Metadaten von Datensätzen mit DOIs werden nicht gelöscht und um einen "
+"Hinweis ergänzt, dass die Löschung aufgrund von Qualitätsmängeln  "
+"vonseiten der TIB erfolgte."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:81
+msgid ""
+"In principle, the TIB is only liable for damage caused by intent or gross"
+" negligence. In case of injuries to life, body or health statutory "
+"provisions apply."
+msgstr ""
+"Die TIB haftet grundsätzlich nur für Schäden, die durch Vorsatz oder "
+"grobe Fahrlässigkeit verursacht wurden. Bei der Verletzung von Leben, "
+"Körper oder Gesundheit gelten die gesetzlichen Bestimmungen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:82
+msgid ""
+"Liability for damage from unauthorized use of password-protected logins "
+"by third parties is not accepted."
+msgstr ""
+"Eine Haftung für Schäden aus der unbefugten Nutzung von "
+"passwortgeschützten Logins durch Dritte wird nicht übernommen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:83
+msgid ""
+"Insofar as liability is limited or excluded, this also applies in favor "
+"of executive employees (m / f), representatives (m / f) and vicarious "
+"agents (m / f) of the TIB."
+msgstr ""
+"Soweit die Haftung beschränkt bzw. ausgeschlossen ist, gilt dies auch "
+"zugunsten von leitenden Angestellten (m/w/d), Vertretern (m/w/d) und "
+"Erfüllungsgehilfen (m/w/d) der TIB."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:84
+msgid ""
+"If there are concrete indications of a violation of these Special "
+"Conditions of the LDM, the TIB is entitled to delete content, restrict "
+"the use of the services or block the Registered User concerned. When "
+"choosing a measure, the legitimate interests of the Registered User are "
+"taken into account, in particular whether there are indications that the "
+"Registered User was not responsible for the violation."
+msgstr ""
+"Bestehen konkrete Anhaltspunkte für einen Verstoß gegen diese "
+"Sonderbedingungen des LDM, ist die TIB berechtigt, Inhalte zu löschen "
+"(außer Metadaten von Datensätzen mit DOIs), die Nutzung der Dienste "
+"einzuschränken oder die betroffene registrierte Nutzerin bzw. den "
+"betroffenen registrierten Nutzer zu sperren. Bei der Wahl einer Maßnahme "
+"werden die berechtigten Interessen der registrierten Nutzerin bzw. des "
+"registrierten Nutzers berücksichtigt, insbesondere wenn Anhaltspunkte "
+"dafür vorliegen, dass die registrierte Nutzerin oder der registrierte "
+"Nutzer den Verstoß nicht zu vertreten hat."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:85
+msgid ""
+"Content that contains a legal violation according to 3.3 or 3.4 may be "
+"blocked or deleted by the TIB."
+msgstr ""
+"Inhalte, die einen Rechtsverstoß nach 3.3 oder 3.4 enthalten, können von "
+"der TIB gesperrt oder gelöscht werden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:87
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:88
+msgid ""
+"The usage relationship and these Special Conditions of the LDM are "
+"subject to German law."
+msgstr ""
+"Das Nutzungsverhältnis und diese Sonderbedingungen des LDM unterliegen "
+"deutschem Recht."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:89
+msgid "The place of jurisdiction is Hannover, Lower Saxony, Germany."
+msgstr "Gerichtsstand ist Hannover, Niedersachsen, Deutschland."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:90
+msgid ""
+"In the event of a dispute, the TIB endeavors to reach an amicable "
+"settlement."
+msgstr "In Streitfällen ist die TIB um eine gütliche Einigung bemüht."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:3
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
+msgid "About the Leibniz Data Manager"
+msgstr "Über den Leibniz Data Manager"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:4
+#, python-format
+msgid ""
+"The %(ss)sLeibniz Data Manager (LDM)%(se)s is a modular research data "
+"infrastructure that enables the %(ss)sFAIR-compliant management and "
+"exploration of Research Digital Objects (RDOs)%(se)s—such as datasets, "
+"software, documents, and scientific publications. By combining "
+"%(ss)sKnowledge Graphs (KGs)%(se)s with %(ss)sNeuro-Symbolic AI%(se)s, "
+"LDM supports intelligent, interoperable, and reusable data workflows "
+"across scientific domains. Key features include:"
+msgstr ""
+"Der %(ss)sLeibniz Data Manager (LDM)%(se)s ist eine modulare "
+"Forschungsdateninfrastruktur, die das %(ss)sFAIR-konforme Management und "
+"die Exploration von Research Digital Objects (RDOs)%(se)s ermöglicht—wie "
+"Datensätze, Software, Dokumente und wissenschaftliche Publikationen. "
+"Durch die Kombination von %(ss)sKnowledge Graphs (KGs)%(se)s mit %(ss"
+")sNeuro-Symbolischer KI%(se)s unterstützt LDM intelligente, interoperable"
+" und wiederverwendbare Daten-Workflows über wissenschaftliche Domänen "
+"hinweg. Zu den Hauptmerkmalen gehören:"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:6
+#, python-format
+msgid ""
+"%(ss)sMetadata Representation%(se)s using standard and domain-specific "
+"vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic "
+"interoperability and alignment with FAIR principles."
+msgstr ""
+"%(ss)sMetadaten-Repräsentation%(se)s unter Verwendung von Standard- und "
+"domänenspezifischen Vokabularen (z.B. DCAT, Datacite, UMLS), die "
+"semantische Interoperabilität und Ausrichtung an FAIR-Prinzipien "
+"gewährleisten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:7
+#, python-format
+msgid ""
+"%(ss)sKnowledge Graph Construction%(se)s from heterogeneous data sources "
+"through a declarative data integration system (DIS), enabling structured "
+"and contextual metadata."
+msgstr ""
+"%(ss)sKnowledge Graph-Konstruktion%(se)s aus heterogenen Datenquellen "
+"durch ein deklaratives Datenintegrationssystem (DIS), das strukturierte "
+"und kontextuelle Metadaten ermöglicht."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:8
+#, python-format
+msgid ""
+"%(ss)sEntity Linking and Enrichment%(se)s of RDOs with external KGs such "
+"as %(ss)sWikidata%(se)s and the %(ss)sOpen Research Knowledge Graph "
+"(ORKG)%(se)s, using tools like Falcon and BioLinkedAI to automatically "
+"expand metadata."
+msgstr ""
+"%(ss)sEntity Linking und Anreicherung%(se)s von RDOs mit externen KGs wie"
+" %(ss)sWikidata%(se)s und dem %(ss)sOpen Research Knowledge Graph "
+"(ORKG)%(se)s, unter Verwendung von Tools wie Falcon und BioLinkedAI zur "
+"automatischen Erweiterung von Metadaten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:9
+#, python-format
+msgid ""
+"%(ss)sOn-the-Fly Metadata Updates%(se)s, maintaining synchronization with"
+" evolving knowledge and newly published resources."
+msgstr ""
+"%(ss)sOn-the-Fly Metadaten-Updates%(se)s, die die Synchronisation mit "
+"sich entwickelndem Wissen und neu veröffentlichten Ressourcen "
+"aufrechterhalten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:10
+#, python-format
+msgid ""
+"%(ss)sFederated Query Processing%(se)s across multiple KGs, allowing "
+"users to pose %(ss)snatural language questions%(se)s that are transformed"
+" into SPARQL and executed over LDM and ORKG."
+msgstr ""
+"%(ss)sFöderierte Abfrageverarbeitung%(se)s über mehrere KGs hinweg, die "
+"es Benutzern ermöglicht, %(ss)snatürlichsprachliche Fragen%(se)s zu "
+"stellen, die in SPARQL umgewandelt und über LDM und ORKG ausgeführt "
+"werden."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:11
+#, python-format
+msgid ""
+"%(ss)sDataset Comparison and Visualization%(se)s, offering tools to "
+"analyze and contrast RDOs based on shared attributes and research "
+"contexts."
+msgstr ""
+"%(ss)sDatensatz-Vergleich und Visualisierung%(se)s, mit Tools zur Analyse"
+" und zum Vergleich von RDOs basierend auf gemeinsamen Attributen und "
+"Forschungskontexten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:12
+#, python-format
+msgid ""
+"%(ss)sLive Code Execution%(se)s via %(ss)sJupyter Notebooks%(se)s, "
+"enabling reproducible scientific workflows and interactive data analysis "
+"within a secure, containerized environment."
+msgstr ""
+"%(ss)sLive-Code-Ausführung%(se)s über %(ss)sJupyter Notebooks%(se)s, die "
+"reproduzierbare wissenschaftliche Workflows und interaktive Datenanalyse "
+"in einer sicheren, containerisierten Umgebung ermöglichen."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:13
+#, python-format
+msgid ""
+"%(ss)sNeuro-Symbolic Reasoning%(se)s for both query answering and "
+"metadata expansion, combining symbolic models with LLM-based "
+"contextualization to enhance discoverability and usability of RDOs."
+msgstr ""
+"%(ss)sNeuro-Symbolisches Reasoning%(se)s sowohl für die Beantwortung von "
+"Anfragen als auch für die Metadaten-Erweiterung, das symbolische Modelle "
+"mit LLM-basierter Kontextualisierung kombiniert, um die Auffindbarkeit "
+"und Nutzbarkeit von RDOs zu verbessern."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:25
+msgid "Demo page"
+msgstr "Demo-Seite"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:28
+msgid "video"
+msgstr "Video"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:32
+#, python-format
+msgid ""
+"LDM is publicly accessible at %(ldm_link)s, and a %(ss)sDocker "
+"container%(se)s for local deployment is available at %(docker_link)s."
+msgstr ""
+"LDM ist öffentlich zugänglich unter %(ldm_link)s, und ein %(ss)sDocker-"
+"Container%(se)s für die lokale Bereitstellung ist verfügbar unter "
+"%(docker_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:39
+#, python-format
+msgid ""
+"The upload and description of dataset metadata require registration. More"
+" detailed information in %(register_link)s."
+msgstr ""
+"Das Hochladen und die Beschreibung von Datensatz-Metadaten erfordern eine"
+" Registrierung. Ausführlichere Informationen unter %(register_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:45
+#, python-format
+msgid ""
+"For more details on using LDM, visit the %(demo_link)s or watch the "
+"following explanatory %(video_link)s."
+msgstr ""
+"Für weitere Details zur Nutzung von LDM besuchen Sie die %(demo_link)s "
+"oder schauen Sie sich das folgende Erklärungs-%(video_link)s an."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:6
+#, python-format
+msgid ""
+"The %(ss)sLeibniz Data Manager (LDM)%(se)s is an open source and free "
+"web-based application for Research Data Management (RDM). LDM delivers "
+"different distributions to best fit the specific requirements of various "
+"customers, e.g., institutes and research groups performing RDM in various"
+" scientific disciplines."
+msgstr ""
+"Der %(ss)sLeibniz Data Manager (LDM)%(se)s ist eine quelloffene und "
+"kostenlose webbasierte Anwendung für das Forschungsdatenmanagement (FDM)."
+" Der LDM bietet verschiedene Distributionen an, um den spezifischen "
+"Anforderungen verschiedener Kunden gerecht zu werden, z.B. Instituten und"
+" Forschungsgruppen, die RDM in verschiedenen wissenschaftlichen "
+"Disziplinen betreiben."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:7
+msgid ""
+"The prototype currently offers the following functions for the "
+"visualization of research data:"
+msgstr ""
+"Der Prototyp bietet derzeit die folgenden Funktionen zur Visualisierung "
+"von Forschungsdaten:"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:9
+msgid "Supports data collections and publications with different formats"
+msgstr ""
+"Unterstützung von Datensammlungen und Publikationen mit unterschiedlichen"
+" Formaten"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:10
+msgid "Different views on the same data set (2D and 3D support)"
+msgstr ""
+"Unterschiedliche Sichten auf denselben Datensatz (2D- und 3D-"
+"Unterstützung)"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:11
+msgid "Visualization of Auto CAD files"
+msgstr "Visualisierung von Auto-CAD-Dateien"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:12
+msgid "Jupyter Notebooks for demonstrating live code"
+msgstr "Jupyter Notebooks zur Demonstration von Live-Code"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:13
+msgid "RDF Description of data collections"
+msgstr "RDF-Beschreibung von Datensammlungen"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:15
+msgid ""
+"The file specific viewers were implemented using CKAN (Comprehensive "
+"Knowledge Archive Network) plugins to render existing viewers for the "
+"datasets included in the CKAN instance."
+msgstr ""
+"Die dateispezifischen Viewer wurden mithilfe von CKAN-Plugins "
+"(Comprehensive Knowledge Archive Network) implementiert, um bestehende "
+"Viewer für die in der CKAN-Instanz enthaltenen Datensätze darzustellen."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:17
+#, python-format
+msgid "This is an instance of the tool installed for: %(instance_name)s."
+msgstr "Dies ist eine LDM-Instanz für: %(instance_name)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:19
+msgid "Other available instances of the LDM:"
+msgstr "Weitere verfügbare LDM-Instanzen:"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:24
+msgid "TIB webpage"
+msgstr "TIB-Webseite"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:25
+msgid "GitHub repository"
+msgstr "GitHub-Repository"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:26
+#, python-format
+msgid ""
+"More info about the LDM project can be found on the %(tib_link)s and the "
+"last updated code in the %(github_link)s."
+msgstr ""
+"Weitere Informationen über das LDM-Projekt finden Sie auf der "
+"%(tib_link)s und den zuletzt aktualisierten Code im %(github_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:2
+msgid "cookie policy"
+msgstr "Cookie-Richtlinie"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:5
+#, python-format
+msgid "Before you browse our site, please accept our %(cookie_link)s."
+msgstr ""
+"Bevor Sie auf unserer Website surfen, akzeptieren Sie bitte unsere "
+"%(cookie_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:6
+msgid "Accept and close this alert"
+msgstr "Akzeptieren und schließen"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/search.html:1
+msgid "E.g. environment"
+msgstr "z.B. Environment"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/search.html:6
+msgid "Search datasets"
+msgstr "Datensatz-Suche"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:10
+msgid "dataset"
+msgstr "Datensatz"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:10
+msgid "datasets"
+msgstr "Datensätze"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:16
+msgid "organization"
+msgstr "Organisation"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:16
+msgid "organizations"
+msgstr "Organisationen"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:22
+msgid "group"
+msgstr "Gruppe"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:22
+msgid "groups"
+msgstr "Gruppen"
+
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:15
+msgid "Data and Resources"
+msgstr "Daten und Ressourcen"
+
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:29
+msgid ""
+"This is an imported dataset. For details on files and resources visit the"
+" source:"
+msgstr ""
+"Dies ist ein importierter Datensatz. Weitere Informationen zu Dateien und"
+" Ressourcen finden Sie unter der Quelle:"
+
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:35
+#, python-format
+msgid "This dataset has no data, %(link_start)swhy not add some?%(link_end)s"
+msgstr ""
+"Dieser Datensatz hat keine Daten, %(link_start)sWarum nicht welche "
+"hinzufügen?%(link_end)s"
+
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:40
+msgid "This dataset has no data"
+msgstr "Dieser Datensatz hat keine Daten"
+
+#: ckanext/theme_ldm_tib/templates/snippets/language_selector.html:4
+msgid "Language"
+msgstr "Sprache"
+
+#: ckanext/theme_ldm_tib/templates/snippets/language_selector.html:12
+msgid "Go"
+msgstr "Los"
+
+#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:47
+msgid "Private"
+msgstr "Privat"
+
+#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:58
+msgid "Draft"
+msgstr "Entwurf"
+
+#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:60
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:69
+msgid "Popular"
+msgstr "Beliebt"
+
+#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:77
+msgid "This dataset has no description"
+msgstr "Dieser Datensatz hat keine Beschreibung"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:15
+msgid "{number} dataset found for \"{query}\""
+msgid_plural "{number} datasets found for \"{query}\""
+msgstr[0] "{number} Datensatz gefunden für \"{query}\""
+msgstr[1] "{number} Datensätze gefunden für \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:16
+msgid "No datasets found for \"{query}\""
+msgstr "Keine Datensätze gefunden bei der Suche \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:17
+msgid "{number} dataset found"
+msgid_plural "{number} datasets found"
+msgstr[0] "{number} Datensatz gefunden"
+msgstr[1] "{number} Datensätze gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:18
+msgid "No datasets found"
+msgstr "Keine Datensätze gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:21
+msgid "{number} imported dataset found for \"{query}\""
+msgid_plural "{number} imported datasets found for \"{query}\""
+msgstr[0] "{number} importierter Datensatz gefunden für \"{query}\""
+msgstr[1] "{number} importierte Datensätze gefunden für \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:22
+msgid "No imported datasets found for \"{query}\""
+msgstr "Keine importierten Datensätze gefunden bei der Suche \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:23
+msgid "{number} imported dataset found"
+msgid_plural "{number} imported datasets found"
+msgstr[0] "{number} importierter Datensatz gefunden"
+msgstr[1] "{number} importierte Datensätze gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:24
+msgid "No imported datasets found"
+msgstr "Keine importierten Datensätze gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:27
+msgid "{number} service found for \"{query}\""
+msgid_plural "{number} services found for \"{query}\""
+msgstr[0] "{number} Service gefunden für \"{query}\""
+msgstr[1] "{number} Services gefunden für \"{query}\""
+
+# | msgid "No service found for \"{query}\""
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:28
+msgid "No services found for \"{query}\""
+msgstr "Keine Services gefunden bei der Suche \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:29
+msgid "{number} service found"
+msgid_plural "{number} services found"
+msgstr[0] "{number} Service gefunden"
+msgstr[1] "{number} Services gefunden"
+
+# | msgid "No service found"
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:30
+msgid "No services found"
+msgstr "Keine Services gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:33
+msgid "{number} group found for \"{query}\""
+msgid_plural "{number} groups found for \"{query}\""
+msgstr[0] "{number} Gruppe gefunden für \"{query}\""
+msgstr[1] "{number} Gruppen gefunden für \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:34
+msgid "No groups found for \"{query}\""
+msgstr "Keine Gruppen gefunden bei der Suche nach \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:35
+msgid "{number} group found"
+msgid_plural "{number} groups found"
+msgstr[0] "{number} Gruppe gefunden"
+msgstr[1] "{number} Gruppen gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:36
+msgid "No groups found"
+msgstr "Keine Gruppen gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:39
+msgid "{number} organization found for \"{query}\""
+msgid_plural "{number} organizations found for \"{query}\""
+msgstr[0] "{number} Organisation wurde zu \"{query}\" gefunden"
+msgstr[1] "{number} Organisationen wurden zu \"{query}\" gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:40
+msgid "No organizations found for \"{query}\""
+msgstr "Keine Organisationen gefunden bei der Suche nach \"{query}\""
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:41
+msgid "{number} organization found"
+msgid_plural "{number} organizations found"
+msgstr[0] "{number} Organisation gefunden"
+msgstr[1] "{number} Organisationen gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:42
+msgid "No organizations found"
+msgstr "Keine Organisationen gefunden"
+
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:2
+msgid "Legal Notices"
+msgstr "Rechtliche Hinweise"
+
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:14
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:15
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:54
+msgid "Special Conditions TIB LDM"
+msgstr "Sonderbedingungen TIB LDM"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:7
+msgid "Change details"
+msgstr "Änderungsdetails"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:18
+msgid "Username"
+msgstr "Benutzername"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:21
+msgid "Full Name"
+msgstr "Vollständiger Name"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
+msgid "About me"
+msgstr "Über mich"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
+msgid "A little information about yourself"
+msgstr "Ein paar Informationen über Sie"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:14
+msgid "Subscribe to notification emails"
+msgstr "E-Mail-Benachrichtigungen abonnieren"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:43
+msgid "Profile picture"
+msgstr "Profilbild"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:44
+msgid "Profile picture URL"
+msgstr "Profilbild-URL"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:28
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:31
+msgid "Sysadmin Password"
+msgstr "Sysadmin Passwort"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:31
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:28
+msgid "Password"
+msgstr "Passwort"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:39
+msgid "Confirm Password"
+msgstr "Passwort wiederholen"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:45
+msgid "Are you sure you want to delete this User?"
+msgstr "Sind Sie sicher, dass Sie diesen Benutzer löschen wollen?"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:45
+msgid "Delete"
+msgstr "Löschen"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:50
+msgid "Are you sure you want to regenerate the API key?"
+msgstr "Sind Sie sicher, dass Sie den API-Key erzeugen wollen?"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:50
+msgid "Regenerate API Key"
+msgstr "API-Key nochmals erzeugen"
+
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:54
+msgid "Update Profile"
+msgstr "Profil aktualisieren"
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:5
+msgid "The form contains invalid entries:"
+msgstr "Das Formular enthält unzulässige Einträge:"
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:18
+msgid "username"
+msgstr "Benutzername"
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:32
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:60
+msgid "Data Protection Information Sheet"
+msgstr "Infoblatt Datenschutz"
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:64
+#, python-format
+msgid "I accept the %(sc_link)s"
+msgstr "Ich akzeptiere die %(sc_link)s"
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:69
+#, python-format
+msgid ""
+"I agree to the processing of my personal data provided here by Technische"
+" Informationsbibliothek (TIB). In accordance with the %(dp_link)s as well"
+" as the %(dp_pdf_link)s, the data is processed exclusively by TIB in "
+"order to provide services of our portals."
+msgstr ""
+"Mit der Verarbeitung meiner hier angegebenen personenbezogenen Daten "
+"durch die Technische Informationsbibliothek (TIB) bin ich einverstanden. "
+"Die Daten werden ausschließlich gemäß der %(dp_link)s sowie dem "
+"%(dp_pdf_link)s verarbeitet, um die Dienstleistungen der Portale der TIB "
+"zu erbringen."
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:85
+msgid "Create Account"
+msgstr "Erstelle Benutzerkonto"
+
+#: ckanext/theme_ldm_tib/templates/user/read_base.html:5
+msgid "Activity Stream"
+msgstr "Aktivitätsanzeige"
+
+#: ckanext/theme_ldm_tib/templates/user/read_base.html:7
+msgid "API Tokens"
+msgstr "API Token"
+

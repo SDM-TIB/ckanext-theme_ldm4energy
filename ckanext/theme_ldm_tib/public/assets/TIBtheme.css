@@ -1,6 +1,9 @@
 select.form-control:not([multiple]) {
   appearance: menulist-button !important;
 }
+a.consent-link {
+  color: red;
+}
 /* =====================================================
  The "account masthead" bar across the top of the site
  ===================================================== */
@@ -315,7 +318,7 @@ img.object-type {
   position: relative;
   padding: 0 0.5em;
   font-size: 1em;
-  margin: 0 0 0 -0.25em;
+  margin: 0 0 20px -0.25em;
   line-height: 1.875em;
   color: #e6e2c8;
   border-radius: 0 0.156em 0.156em 0;
@@ -323,6 +326,7 @@ img.object-type {
   box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.5);
   width: 45%;
   top: 6px;
+  font-weight: 700;
 }
 .ribbon:before, .ribbon:after {
   position: absolute;
@@ -387,6 +391,10 @@ img.object-type {
   position: relative; /* required  for demo*/
   padding-left: 3%;
 }
+.parent99 video {
+  width: 100%;
+  margin-bottom: 10px;
+}
 .ribbon99 {
   margin: 0;
   background: #fab143;
@@ -397,6 +405,7 @@ img.object-type {
   right: 0;
   transform: translateX(30%) translateY(0%) rotate(45deg);
   transform-origin: top left;
+  font-weight: 700;
 }
 .ribbon99:before,
 .ribbon99:after {
@@ -469,9 +478,6 @@ a.btn_check_all {
   overflow: scroll;
 }
 /* ********** Authors ******************************************/
-.input_author {
-//width: 50% !important;
-}
 .input_orcid {
   padding-left: 32px !important;
   background-size: 18px;
@@ -479,8 +485,7 @@ a.btn_check_all {
   background-attachment: scroll;
   background-position-y: 7px;
   background-position-x: 7px;
-  background-image: url(/images/orcid.svg), url(/ldmservice/images/orcid.svg) !important;
-  /*width: 50% !important;*/
+  background-image: url("../../images/orcid.svg") !important;
 }
 .orcid_display_img {
   width: 20px;
@@ -548,4 +553,9 @@ label.ur_form_disabled {
 .notes.embedded-content img {
   padding: 5px;
   box-sizing: border-box;
+}
+.demo-img {
+  border: 1px solid;
+  width: 120px;
+  margin: 10px;
 }

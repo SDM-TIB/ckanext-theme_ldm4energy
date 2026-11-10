@@ -12,7 +12,7 @@
 {% endblock %}
 
 {% block header_account_container_content %}
-    {% if h.tibtheme_styled_header_enabled(): %}
+    {% if h.tibtheme_styled_header_enabled() %}
         <style>header div.container {
           box-shadow: 1px 4px 8px rgba(0,0,0,0.5);
         }
@@ -22,9 +22,9 @@
         </div>
         <div style="clear: both"></div>
         <div style="margin-bottom: -21px; clear: both;">
-            <img id="tib_event_logo" src="{{h.url_for('home')}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
+            <img id="tib_event_logo" src="{{ h.url_for_static('images/tib_datamanager_1150.jpg') }}" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
         </div>
-    {% else: %}
+    {% else %}
         {{ super() }}
     {% endif %}
 {% endblock %}
@@ -37,11 +37,11 @@
 {% endblock %}
 
 {% block header_site_search %}
-    <form class="section site-search simple-input" action="{% url_for controller='dataset', action='search' %}" method="get">
+    <form class="section site-search simple-input" action="{% url_for 'dataset.search' %}" method="get">
         <div class="field">
             <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
             <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search') }}" />
-            <button class="btn-search" type="submit" style="top:16px"><i class="fa fa-search"></i></button>
+            <button class="btn-search" type="submit" aria-label="{{ _('Search') }}"><i class="fa fa-search" aria-hidden="true"></i></button>
         </div>
     </form>
 {% endblock %}
@@ -58,10 +58,10 @@
                         {{ _('Datasets') }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}dataset/">{{_('All')}} {{ menu_item}}</a>
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}dataset?type=dataset">{{_('Local')}}</a>
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}vdataset/">{{_('Imported')}}</a>
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}service/">{{_('Services')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search') }}">{{_('All')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search', dataset_type='dataset') }}">{{_('Local')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('vdataset.search') }}">{{_('Imported')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('service.search') }}">{{_('Services')}}</a>
                     </div>
                 </div>
             </li>
