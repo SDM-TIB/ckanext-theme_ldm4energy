@@ -17,19 +17,7 @@
 
   <div class="main">
     <div class="container">
-      <h2 style="color: white; margin-bottom: 20px">LDM4Energy Features</h2>
-      <div class="row row2">
-        <div class="col-md-6 col1">
-          {% block featured_group %}
-            {% snippet 'home/snippets/featured_group.html' %}
-          {% endblock %}
-        </div>
-        <div class="col-md-6 col2">
-          {% block featured_organization %}
-            {% snippet 'home/snippets/featured_organization.html' %}
-          {% endblock %}
-        </div>
-      </div>
+      {% snippet 'home/snippets/features.html' %}
     </div>
   </div>
 </div>
